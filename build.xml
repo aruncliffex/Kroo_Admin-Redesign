@@ -1,0 +1,114 @@
+<project name="" default="build" basedir=".">
+    <property name="source" value="${basedir}"/>
+    <property name="appsource" value="${source}/application"/>
+    <property name="libsource" value="${source}/library"/>
+    
+    <target name="clean" 
+        description="Clean up artifact directories">
+        <delete dir="${basedir}/build"/>
+    </target>
+
+    <target name="prepare" description="Create artifact directories">
+        <mkdir dir="${basedir}/build"/>
+        <mkdir dir="${basedir}/build/logs"/>
+        <mkdir dir="${basedir}/build/phpdoc"/>
+        <mkdir dir="${basedir}/build/pdepend"/>       
+        <mkdir dir="${basedir}/build/phpdcd"/>
+        <mkdir dir="${basedir}/build/phpcs"/>
+    </target>
+
+    <target name="phpunit" description="Run unit tests using PHPUnit and generates reports">
+        <exec dir="${basedir}" executable="phpunit" failonerror="true">
+			<arg line="--configuration phpunit_with_coverage.xml" />
+		</exec>
+    </target>
+
+    <target name="Tasks" 
+        description="Run the pdepend, phpmd, phpcpd, phpdcd, phpcs, phpdoc and phploc tasks. ">
+            <antcall target="pdepend"/> 
+            <antcall target="phpmd"/>
+            <antcall target="phpcpd"/>
+            <antcall target="phpdcd"/>
+            <antcall target="phpcs"/>
+            <antcall target="phpdoc"/>
+            <antcall target="phploc"/>
+
+    </target>
+
+	<target name="pdepend"
+	    description="Generate jdepend.xml and software metrics charts using PHP_Depend">
+            <exec executable="pdepend">
+		    <arg line="--jdepend-xml=${basedir}/build/logs/jdepend.xml
+                --jdepend-chart=${basedir}/build/pdepend/dependencies.svg
+                --overview-pyramid=${basedir}/build/pdepend/overview-pyramid.svg
+                --suffix=php
+                --ignore=tests,Zend,Doctrine,ZFDoctrine,PHPExcel,scripts
+                ${source}" />
+		</exec>
+    </target>
+
+    <target name="phpmd"
+        description="Generate pmd.xml using PHPMD">
+        <exec executable="phpmd" failonerror="false">
+            <arg line="${source} xml codesize,unusedcode
+                --reportfile ${basedir}/build/logs/pmd.xml
+                --exclude tests,Zend,Doctrine,ZFDoctrine,PHPExcel,scripts
+                --suffixes php" />
+        </exec>
+    </target>
+
+    <target name="phpcpd" description="Generate pmd-cpd.xml using PHPCPD">
+        <exec executable="phpcpd" failonerror="false">
+            <arg line="--log-pmd ${basedir}/build/logs/pmd-cpd.xml   
+                --exclude ${libsource}/Zend
+                --exclude ${libsource}/Doctrine             
+                --exclude ${libsource}/ZFDoctrine
+                --exclude ${libsource}/PHPExcel
+                ${appsource} ${libsource}" />
+        </exec>
+    </target>
+
+	<target name="phpdcd" description="Generate pmd-dcd.xml using PHPCPD">
+		<exec executable="phpdcd" output="${basedir}/build/logs/pmd-dcd.txt" failonerror="false">
+			<arg line="${appsource}
+                --exclude tests,Zend,Doctrine,ZFDoctrine,PHPExcel
+                --suffixes php" />
+		</exec>
+	</target>
+
+
+    <target name="phploc"
+        description="Generate phploc.xml">
+        <exec dir="${basedir}" executable="phploc" failonerror="false">
+            <arg line="--log-xml ${basedir}/build/logs/phploc.xml
+                --log-csv ${basedir}/build/logs/phploc.csv
+                --exclude ${libsource}/Zend
+                --exclude ${libsource}/Doctrine
+                --exclude ${libsource}/ZFDoctrine
+                --exclude ${libsource}/PHPExcel
+                ${appsource} ${libsource}" />
+        </exec>
+    </target>
+
+    <target name="phpcs"
+        description="Generate checkstyle.xml using PHP_CodeSniffer">
+        <exec executable="phpcs" output="/dev/null">
+         <arg value="--report=checkstyle" />
+ 	<arg value="--report-file=${basedir}/build/logs/checkstyle.xml" />
+	<arg value="--standard=${basedir}/build/phpcs.xml" />
+ 	<arg path="${appsource}/" />
+	</exec>
+    </target>
+
+    <target name="phpdoc"
+        description="Generate API documentation using phpDocumentor">
+        <exec executable="phpdoc" failonerror="false">
+            <arg line="--directory ${appsource}
+                --ignore tests
+                --target ${basedir}/build/phpdoc" />     
+        </exec>
+    </target>  
+
+    <target name="build" depends="clean,prepare,Tasks"/>
+
+</project>

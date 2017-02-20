@@ -1,0 +1,13 @@
+phpdcd 1.0.2 by Sebastian Bergmann.
+
+
+
+                                           
+  [RuntimeException]                       
+  The "--suffixes" option does not exist.  
+                                           
+
+
+phpdcd [--names="..."] [--names-exclude="..."] [--exclude="..."] [--recursive] [values1] ... [valuesN]
+
+

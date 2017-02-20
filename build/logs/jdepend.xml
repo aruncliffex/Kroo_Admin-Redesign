@@ -1,0 +1,4624 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PDepend>
+  <Packages>
+    <Package name="+global">
+      <Stats>
+        <TotalClasses>51</TotalClasses>
+        <ConcreteClasses>51</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>2</Ca>
+        <Ce>5</Ce>
+        <A>0</A>
+        <I>0.71428571428571</I>
+        <D>0.28571428571429</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/application/libraries/Controller.php">CI</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/application/libraries/Controller.php">Loader</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/application/libraries/Controller.php">Controller</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/application/libraries/Controller.php">MX_Config</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/application/libraries/Controller.php">MX_Language</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/application/libraries/Image_moo.php">Image_moo</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/application/libraries/MY_Router.php">MY_Router</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/application/libraries/Modules.php">Modules</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/application/libraries/s3server.php">s3server</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/application/libraries/s3server1.php">s3server</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/application/models/commons_model.php">Commons_model</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/application/modules/activitycredits/controllers/activitycredits.php">activitycredits</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/application/modules/activitycredits/models/activity_credits_model.php">Activity_credits_model</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/application/modules/apipage/controllers/apipage.php">Apipage</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/application/modules/apipage/models/apipage_model.php">Apipage_model</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/application/modules/dashboard/controllers/dashboard.php">Dashboard</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/application/modules/dashboard/models/dashboard_model.php">Dashboard_model</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/application/modules/dashboard_before_game_change/controllers/dashboard.php">Dashboard</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/application/modules/dashboard_before_game_change/models/dashboard_model.php">Dashboard_model</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/application/modules/game/controllers/game.php">Game</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/application/modules/game/models/game_model.php">Game_model</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/application/modules/game_before_game_change/controllers/game.php">Game</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/application/modules/game_before_game_change/models/game_model.php">Game_model</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/application/modules/home/controllers/home.php">Home</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/application/modules/home/models/user_login.php">User_login</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/application/modules/sponser/controllers/sponser.php">sponser</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/application/modules/sponser/models/sponser_model.php">Sponser_model</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/application/modules/stats/controllers/stats.php">Stats</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/application/modules/stats/models/stats_model.php">Stats_model</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/application/modules/users/controllers/users.php">Users</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/application/modules/users/models/users_model.php">Users_model</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/script.php">qqUploadedFileXhr</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/script.php">qqUploadedFileForm</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/script.php">qqFileUploader</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/system/libraries/Xmlrpc.php">XML_RPC_Client</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/system/libraries/Xmlrpc.php">XML_RPC_Response</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/system/libraries/Xmlrpc.php">XML_RPC_Message</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/system/libraries/Xmlrpc.php">XML_RPC_Values</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package>+core</Package>
+        <Package>+dom</Package>
+        <Package>Aws\S3</Package>
+        <Package>CodeIgniter\Libraries</Package>
+        <Package>CodeIgniter\codeigniter</Package>
+      </DependsUpon>
+      <UsedBy>
+        <Package>CodeIgniter\Drivers</Package>
+        <Package>CodeIgniter\Libraries</Package>
+      </UsedBy>
+    </Package>
+    <Package name="Aws\Acm">
+      <Stats>
+        <TotalClasses>1</TotalClasses>
+        <ConcreteClasses>1</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>0</Ca>
+        <Ce>1</Ce>
+        <A>0</A>
+        <I>1</I>
+        <D>0</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/Acm/AcmClient.php">AcmClient</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package>Aws</Package>
+      </DependsUpon>
+      <UsedBy/>
+    </Package>
+    <Package name="Aws\Acm\Exception">
+      <Stats>
+        <TotalClasses>1</TotalClasses>
+        <ConcreteClasses>1</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>0</Ca>
+        <Ce>1</Ce>
+        <A>0</A>
+        <I>1</I>
+        <D>0</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/Acm/Exception/AcmException.php">AcmException</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package>Aws\Exception</Package>
+      </DependsUpon>
+      <UsedBy/>
+    </Package>
+    <Package name="Aws\Api">
+      <Stats>
+        <TotalClasses>13</TotalClasses>
+        <ConcreteClasses>12</ConcreteClasses>
+        <AbstractClasses>1</AbstractClasses>
+        <Ca>6</Ca>
+        <Ce>4</Ce>
+        <A>0.076923076923077</A>
+        <I>0.4</I>
+        <D>0.52307692307692</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/Api/ApiProvider.php">ApiProvider</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/Api/DateTimeResult.php">DateTimeResult</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/Api/DocModel.php">DocModel</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/Api/ListShape.php">ListShape</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/Api/MapShape.php">MapShape</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/Api/Operation.php">Operation</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/Api/Service.php">Service</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/Api/Shape.php">Shape</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/Api/ShapeMap.php">ShapeMap</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/Api/StructureShape.php">StructureShape</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/Api/TimestampShape.php">TimestampShape</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/Api/Validator.php">Validator</Class>
+      </ConcreteClasses>
+      <AbstractClasses>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/Api/AbstractModel.php">AbstractModel</Class>
+      </AbstractClasses>
+      <DependsUpon>
+        <Package></Package>
+        <Package>Aws\Api\Parser</Package>
+        <Package>Aws\Api\Serializer</Package>
+        <Package>Aws\Exception</Package>
+      </DependsUpon>
+      <UsedBy>
+        <Package>Aws\Api\Parser</Package>
+        <Package>Aws\Api\Serializer</Package>
+        <Package>Aws\CloudHsm</Package>
+        <Package>Aws\Ec2</Package>
+        <Package>Aws\Glacier</Package>
+        <Package>Aws\S3</Package>
+      </UsedBy>
+    </Package>
+    <Package name="Aws\Api\ErrorParser">
+      <Stats>
+        <TotalClasses>3</TotalClasses>
+        <ConcreteClasses>3</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>0</Ca>
+        <Ce>2</Ce>
+        <A>0</A>
+        <I>1</I>
+        <D>0</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/Api/ErrorParser/JsonRpcErrorParser.php">JsonRpcErrorParser</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/Api/ErrorParser/RestJsonErrorParser.php">RestJsonErrorParser</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/Api/ErrorParser/XmlErrorParser.php">XmlErrorParser</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package></Package>
+        <Package>Psr\Http\Message</Package>
+      </DependsUpon>
+      <UsedBy/>
+    </Package>
+    <Package name="Aws\Api\Parser">
+      <Stats>
+        <TotalClasses>9</TotalClasses>
+        <ConcreteClasses>7</ConcreteClasses>
+        <AbstractClasses>2</AbstractClasses>
+        <Ca>3</Ca>
+        <Ce>5</Ce>
+        <A>0.22222222222222</A>
+        <I>0.625</I>
+        <D>0.15277777777778</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/Api/Parser/Crc32ValidatingParser.php">Crc32ValidatingParser</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/Api/Parser/JsonParser.php">JsonParser</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/Api/Parser/JsonRpcParser.php">JsonRpcParser</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/Api/Parser/QueryParser.php">QueryParser</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/Api/Parser/RestJsonParser.php">RestJsonParser</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/Api/Parser/RestXmlParser.php">RestXmlParser</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/Api/Parser/XmlParser.php">XmlParser</Class>
+      </ConcreteClasses>
+      <AbstractClasses>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/Api/Parser/AbstractParser.php">AbstractParser</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/Api/Parser/AbstractRestParser.php">AbstractRestParser</Class>
+      </AbstractClasses>
+      <DependsUpon>
+        <Package></Package>
+        <Package>Aws</Package>
+        <Package>Aws\Api</Package>
+        <Package>Aws\Exception</Package>
+        <Package>Psr\Http\Message</Package>
+      </DependsUpon>
+      <UsedBy>
+        <Package>Aws\Api</Package>
+        <Package>Aws\DynamoDb</Package>
+        <Package>Aws\S3</Package>
+      </UsedBy>
+    </Package>
+    <Package name="Aws\Api\Parser\Exception">
+      <Stats>
+        <TotalClasses>1</TotalClasses>
+        <ConcreteClasses>1</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>1</Ca>
+        <Ce>1</Ce>
+        <A>0</A>
+        <I>0.5</I>
+        <D>0.5</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/Api/Parser/Exception/ParserException.php">ParserException</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package></Package>
+      </DependsUpon>
+      <UsedBy>
+        <Package>Aws</Package>
+      </UsedBy>
+    </Package>
+    <Package name="Aws\Api\Serializer">
+      <Stats>
+        <TotalClasses>9</TotalClasses>
+        <ConcreteClasses>8</ConcreteClasses>
+        <AbstractClasses>1</AbstractClasses>
+        <Ca>1</Ca>
+        <Ce>4</Ce>
+        <A>0.11111111111111</A>
+        <I>0.8</I>
+        <D>0.088888888888889</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/Api/Serializer/Ec2ParamBuilder.php">Ec2ParamBuilder</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/Api/Serializer/JsonBody.php">JsonBody</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/Api/Serializer/JsonRpcSerializer.php">JsonRpcSerializer</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/Api/Serializer/QueryParamBuilder.php">QueryParamBuilder</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/Api/Serializer/QuerySerializer.php">QuerySerializer</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/Api/Serializer/RestJsonSerializer.php">RestJsonSerializer</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/Api/Serializer/RestXmlSerializer.php">RestXmlSerializer</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/Api/Serializer/XmlBody.php">XmlBody</Class>
+      </ConcreteClasses>
+      <AbstractClasses>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/Api/Serializer/RestSerializer.php">RestSerializer</Class>
+      </AbstractClasses>
+      <DependsUpon>
+        <Package></Package>
+        <Package>Aws</Package>
+        <Package>Aws\Api</Package>
+        <Package>GuzzleHttp\Psr7</Package>
+      </DependsUpon>
+      <UsedBy>
+        <Package>Aws\Api</Package>
+      </UsedBy>
+    </Package>
+    <Package name="Aws\ApiGateway">
+      <Stats>
+        <TotalClasses>1</TotalClasses>
+        <ConcreteClasses>1</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>0</Ca>
+        <Ce>2</Ce>
+        <A>0</A>
+        <I>1</I>
+        <D>0</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/ApiGateway/ApiGatewayClient.php">ApiGatewayClient</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package>Aws</Package>
+        <Package>Psr\Http\Message</Package>
+      </DependsUpon>
+      <UsedBy/>
+    </Package>
+    <Package name="Aws\ApiGateway\Exception">
+      <Stats>
+        <TotalClasses>1</TotalClasses>
+        <ConcreteClasses>1</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>0</Ca>
+        <Ce>1</Ce>
+        <A>0</A>
+        <I>1</I>
+        <D>0</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/ApiGateway/Exception/ApiGatewayException.php">ApiGatewayException</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package>Aws\Exception</Package>
+      </DependsUpon>
+      <UsedBy/>
+    </Package>
+    <Package name="Aws\AutoScaling">
+      <Stats>
+        <TotalClasses>1</TotalClasses>
+        <ConcreteClasses>1</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>0</Ca>
+        <Ce>1</Ce>
+        <A>0</A>
+        <I>1</I>
+        <D>0</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/AutoScaling/AutoScalingClient.php">AutoScalingClient</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package>Aws</Package>
+      </DependsUpon>
+      <UsedBy/>
+    </Package>
+    <Package name="Aws\AutoScaling\Exception">
+      <Stats>
+        <TotalClasses>1</TotalClasses>
+        <ConcreteClasses>1</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>0</Ca>
+        <Ce>1</Ce>
+        <A>0</A>
+        <I>1</I>
+        <D>0</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/AutoScaling/Exception/AutoScalingException.php">AutoScalingException</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package>Aws\Exception</Package>
+      </DependsUpon>
+      <UsedBy/>
+    </Package>
+    <Package name="Aws">
+      <Stats>
+        <TotalClasses>26</TotalClasses>
+        <ConcreteClasses>21</ConcreteClasses>
+        <AbstractClasses>5</AbstractClasses>
+        <Ca>68</Ca>
+        <Ce>7</Ce>
+        <A>0.19230769230769</A>
+        <I>0.093333333333333</I>
+        <D>0.71435897435897</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/Command.php">Command</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/HandlerList.php">HandlerList</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/HashingStream.php">HashingStream</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/History.php">History</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/JsonCompiler.php">JsonCompiler</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/LruArrayCache.php">LruArrayCache</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/MockHandler.php">MockHandler</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/MultiRegionClient.php">MultiRegionClient</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/PhpHash.php">PhpHash</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/PsrCacheAdapter.php">PsrCacheAdapter</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/Result.php">Result</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/RetryMiddleware.php">RetryMiddleware</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/Sdk.php">Sdk</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/TraceMiddleware.php">TraceMiddleware</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/WrappedHttpHandler.php">WrappedHttpHandler</Class>
+      </ConcreteClasses>
+      <AbstractClasses>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/AwsClientInterface.php">AwsClientInterface</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/CacheInterface.php">CacheInterface</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/CommandInterface.php">CommandInterface</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/HashInterface.php">HashInterface</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/ResultInterface.php">ResultInterface</Class>
+      </AbstractClasses>
+      <DependsUpon>
+        <Package></Package>
+        <Package>Aws\Api\Parser\Exception</Package>
+        <Package>Aws\Exception</Package>
+        <Package>GuzzleHttp\Promise</Package>
+        <Package>JmesPath</Package>
+        <Package>Psr\Cache</Package>
+        <Package>Psr\Http\Message</Package>
+      </DependsUpon>
+      <UsedBy>
+        <Package>Aws\Acm</Package>
+        <Package>Aws\ApiGateway</Package>
+        <Package>Aws\Api\Parser</Package>
+        <Package>Aws\Api\Serializer</Package>
+        <Package>Aws\AutoScaling</Package>
+        <Package>Aws\CloudFormation</Package>
+        <Package>Aws\CloudFront</Package>
+        <Package>Aws\CloudHsm</Package>
+        <Package>Aws\CloudSearch</Package>
+        <Package>Aws\CloudSearchDomain</Package>
+        <Package>Aws\CloudTrail</Package>
+        <Package>Aws\CloudWatch</Package>
+        <Package>Aws\CloudWatchEvents</Package>
+        <Package>Aws\CloudWatchLogs</Package>
+        <Package>Aws\CodeCommit</Package>
+        <Package>Aws\CodeDeploy</Package>
+        <Package>Aws\CodePipeline</Package>
+        <Package>Aws\CognitoIdentity</Package>
+        <Package>Aws\CognitoIdentityProvider</Package>
+        <Package>Aws\CognitoSync</Package>
+        <Package>Aws\ConfigService</Package>
+        <Package>Aws\Credentials</Package>
+        <Package>Aws\DataPipeline</Package>
+        <Package>Aws\DatabaseMigrationService</Package>
+        <Package>Aws\DeviceFarm</Package>
+        <Package>Aws\DirectConnect</Package>
+        <Package>Aws\DirectoryService</Package>
+        <Package>Aws\DynamoDb</Package>
+        <Package>Aws\Ec2</Package>
+        <Package>Aws\Ecr</Package>
+        <Package>Aws\Ecs</Package>
+        <Package>Aws\Efs</Package>
+        <Package>Aws\ElastiCache</Package>
+        <Package>Aws\ElasticBeanstalk</Package>
+        <Package>Aws\ElasticLoadBalancing</Package>
+        <Package>Aws\ElasticTranscoder</Package>
+        <Package>Aws\ElasticsearchService</Package>
+        <Package>Aws\Emr</Package>
+        <Package>Aws\Exception</Package>
+        <Package>Aws\Firehose</Package>
+        <Package>Aws\GameLift</Package>
+        <Package>Aws\Glacier</Package>
+        <Package>Aws\Iam</Package>
+        <Package>Aws\Inspector</Package>
+        <Package>Aws\Iot</Package>
+        <Package>Aws\IotDataPlane</Package>
+        <Package>Aws\Kinesis</Package>
+        <Package>Aws\Kms</Package>
+        <Package>Aws\Lambda</Package>
+        <Package>Aws\MachineLearning</Package>
+        <Package>Aws\MarketplaceCommerceAnalytics</Package>
+        <Package>Aws\MarketplaceMetering</Package>
+        <Package>Aws\OpsWorks</Package>
+        <Package>Aws\Rds</Package>
+        <Package>Aws\Redshift</Package>
+        <Package>Aws\Route53</Package>
+        <Package>Aws\Route53Domains</Package>
+        <Package>Aws\S3</Package>
+        <Package>Aws\Ses</Package>
+        <Package>Aws\Sns</Package>
+        <Package>Aws\Sqs</Package>
+        <Package>Aws\Ssm</Package>
+        <Package>Aws\StorageGateway</Package>
+        <Package>Aws\Sts</Package>
+        <Package>Aws\Support</Package>
+        <Package>Aws\Swf</Package>
+        <Package>Aws\Waf</Package>
+        <Package>Aws\WorkSpaces</Package>
+      </UsedBy>
+    </Package>
+    <Package name="Aws\CloudFormation">
+      <Stats>
+        <TotalClasses>1</TotalClasses>
+        <ConcreteClasses>1</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>0</Ca>
+        <Ce>1</Ce>
+        <A>0</A>
+        <I>1</I>
+        <D>0</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/CloudFormation/CloudFormationClient.php">CloudFormationClient</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package>Aws</Package>
+      </DependsUpon>
+      <UsedBy/>
+    </Package>
+    <Package name="Aws\CloudFormation\Exception">
+      <Stats>
+        <TotalClasses>1</TotalClasses>
+        <ConcreteClasses>1</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>0</Ca>
+        <Ce>1</Ce>
+        <A>0</A>
+        <I>1</I>
+        <D>0</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/CloudFormation/Exception/CloudFormationException.php">CloudFormationException</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package>Aws\Exception</Package>
+      </DependsUpon>
+      <UsedBy/>
+    </Package>
+    <Package name="Aws\CloudFront">
+      <Stats>
+        <TotalClasses>4</TotalClasses>
+        <ConcreteClasses>4</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>0</Ca>
+        <Ce>4</Ce>
+        <A>0</A>
+        <I>1</I>
+        <D>0</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/CloudFront/CloudFrontClient.php">CloudFrontClient</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/CloudFront/CookieSigner.php">CookieSigner</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/CloudFront/Signer.php">Signer</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/CloudFront/UrlSigner.php">UrlSigner</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package></Package>
+        <Package>Aws</Package>
+        <Package>GuzzleHttp\Psr7</Package>
+        <Package>Psr\Http\Message</Package>
+      </DependsUpon>
+      <UsedBy/>
+    </Package>
+    <Package name="Aws\CloudFront\Exception">
+      <Stats>
+        <TotalClasses>1</TotalClasses>
+        <ConcreteClasses>1</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>0</Ca>
+        <Ce>1</Ce>
+        <A>0</A>
+        <I>1</I>
+        <D>0</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/CloudFront/Exception/CloudFrontException.php">CloudFrontException</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package>Aws\Exception</Package>
+      </DependsUpon>
+      <UsedBy/>
+    </Package>
+    <Package name="Aws\CloudHsm">
+      <Stats>
+        <TotalClasses>1</TotalClasses>
+        <ConcreteClasses>1</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>0</Ca>
+        <Ce>2</Ce>
+        <A>0</A>
+        <I>1</I>
+        <D>0</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/CloudHsm/CloudHsmClient.php">CloudHsmClient</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package>Aws</Package>
+        <Package>Aws\Api</Package>
+      </DependsUpon>
+      <UsedBy/>
+    </Package>
+    <Package name="Aws\CloudHsm\Exception">
+      <Stats>
+        <TotalClasses>1</TotalClasses>
+        <ConcreteClasses>1</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>0</Ca>
+        <Ce>1</Ce>
+        <A>0</A>
+        <I>1</I>
+        <D>0</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/CloudHsm/Exception/CloudHsmException.php">CloudHsmException</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package>Aws\Exception</Package>
+      </DependsUpon>
+      <UsedBy/>
+    </Package>
+    <Package name="Aws\CloudSearch">
+      <Stats>
+        <TotalClasses>1</TotalClasses>
+        <ConcreteClasses>1</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>0</Ca>
+        <Ce>1</Ce>
+        <A>0</A>
+        <I>1</I>
+        <D>0</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/CloudSearch/CloudSearchClient.php">CloudSearchClient</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package>Aws</Package>
+      </DependsUpon>
+      <UsedBy/>
+    </Package>
+    <Package name="Aws\CloudSearch\Exception">
+      <Stats>
+        <TotalClasses>1</TotalClasses>
+        <ConcreteClasses>1</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>0</Ca>
+        <Ce>1</Ce>
+        <A>0</A>
+        <I>1</I>
+        <D>0</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/CloudSearch/Exception/CloudSearchException.php">CloudSearchException</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package>Aws\Exception</Package>
+      </DependsUpon>
+      <UsedBy/>
+    </Package>
+    <Package name="Aws\CloudSearchDomain">
+      <Stats>
+        <TotalClasses>1</TotalClasses>
+        <ConcreteClasses>1</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>0</Ca>
+        <Ce>2</Ce>
+        <A>0</A>
+        <I>1</I>
+        <D>0</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/CloudSearchDomain/CloudSearchDomainClient.php">CloudSearchDomainClient</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package>Aws</Package>
+        <Package>GuzzleHttp\Psr7</Package>
+      </DependsUpon>
+      <UsedBy/>
+    </Package>
+    <Package name="Aws\CloudSearchDomain\Exception">
+      <Stats>
+        <TotalClasses>1</TotalClasses>
+        <ConcreteClasses>1</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>0</Ca>
+        <Ce>1</Ce>
+        <A>0</A>
+        <I>1</I>
+        <D>0</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/CloudSearchDomain/Exception/CloudSearchDomainException.php">CloudSearchDomainException</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package>Aws\Exception</Package>
+      </DependsUpon>
+      <UsedBy/>
+    </Package>
+    <Package name="Aws\CloudTrail">
+      <Stats>
+        <TotalClasses>4</TotalClasses>
+        <ConcreteClasses>4</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>0</Ca>
+        <Ce>4</Ce>
+        <A>0</A>
+        <I>1</I>
+        <D>0</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/CloudTrail/CloudTrailClient.php">CloudTrailClient</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/CloudTrail/LogFileIterator.php">LogFileIterator</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/CloudTrail/LogFileReader.php">LogFileReader</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/CloudTrail/LogRecordIterator.php">LogRecordIterator</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package></Package>
+        <Package>Aws</Package>
+        <Package>Aws\CloudTrail\Exception</Package>
+        <Package>Aws\S3</Package>
+      </DependsUpon>
+      <UsedBy/>
+    </Package>
+    <Package name="Aws\CloudTrail\Exception">
+      <Stats>
+        <TotalClasses>1</TotalClasses>
+        <ConcreteClasses>1</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>1</Ca>
+        <Ce>1</Ce>
+        <A>0</A>
+        <I>0.5</I>
+        <D>0.5</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/CloudTrail/Exception/CloudTrailException.php">CloudTrailException</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package>Aws\Exception</Package>
+      </DependsUpon>
+      <UsedBy>
+        <Package>Aws\CloudTrail</Package>
+      </UsedBy>
+    </Package>
+    <Package name="Aws\CloudWatch">
+      <Stats>
+        <TotalClasses>1</TotalClasses>
+        <ConcreteClasses>1</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>0</Ca>
+        <Ce>1</Ce>
+        <A>0</A>
+        <I>1</I>
+        <D>0</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/CloudWatch/CloudWatchClient.php">CloudWatchClient</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package>Aws</Package>
+      </DependsUpon>
+      <UsedBy/>
+    </Package>
+    <Package name="Aws\CloudWatch\Exception">
+      <Stats>
+        <TotalClasses>1</TotalClasses>
+        <ConcreteClasses>1</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>0</Ca>
+        <Ce>1</Ce>
+        <A>0</A>
+        <I>1</I>
+        <D>0</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/CloudWatch/Exception/CloudWatchException.php">CloudWatchException</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package>Aws\Exception</Package>
+      </DependsUpon>
+      <UsedBy/>
+    </Package>
+    <Package name="Aws\CloudWatchEvents">
+      <Stats>
+        <TotalClasses>1</TotalClasses>
+        <ConcreteClasses>1</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>0</Ca>
+        <Ce>1</Ce>
+        <A>0</A>
+        <I>1</I>
+        <D>0</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/CloudWatchEvents/CloudWatchEventsClient.php">CloudWatchEventsClient</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package>Aws</Package>
+      </DependsUpon>
+      <UsedBy/>
+    </Package>
+    <Package name="Aws\CloudWatchEvents\Exception">
+      <Stats>
+        <TotalClasses>1</TotalClasses>
+        <ConcreteClasses>1</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>0</Ca>
+        <Ce>1</Ce>
+        <A>0</A>
+        <I>1</I>
+        <D>0</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/CloudWatchEvents/Exception/CloudWatchEventsException.php">CloudWatchEventsException</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package>Aws\Exception</Package>
+      </DependsUpon>
+      <UsedBy/>
+    </Package>
+    <Package name="Aws\CloudWatchLogs">
+      <Stats>
+        <TotalClasses>1</TotalClasses>
+        <ConcreteClasses>1</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>0</Ca>
+        <Ce>1</Ce>
+        <A>0</A>
+        <I>1</I>
+        <D>0</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/CloudWatchLogs/CloudWatchLogsClient.php">CloudWatchLogsClient</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package>Aws</Package>
+      </DependsUpon>
+      <UsedBy/>
+    </Package>
+    <Package name="Aws\CloudWatchLogs\Exception">
+      <Stats>
+        <TotalClasses>1</TotalClasses>
+        <ConcreteClasses>1</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>0</Ca>
+        <Ce>1</Ce>
+        <A>0</A>
+        <I>1</I>
+        <D>0</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/CloudWatchLogs/Exception/CloudWatchLogsException.php">CloudWatchLogsException</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package>Aws\Exception</Package>
+      </DependsUpon>
+      <UsedBy/>
+    </Package>
+    <Package name="Aws\CodeCommit">
+      <Stats>
+        <TotalClasses>1</TotalClasses>
+        <ConcreteClasses>1</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>0</Ca>
+        <Ce>1</Ce>
+        <A>0</A>
+        <I>1</I>
+        <D>0</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/CodeCommit/CodeCommitClient.php">CodeCommitClient</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package>Aws</Package>
+      </DependsUpon>
+      <UsedBy/>
+    </Package>
+    <Package name="Aws\CodeCommit\Exception">
+      <Stats>
+        <TotalClasses>1</TotalClasses>
+        <ConcreteClasses>1</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>0</Ca>
+        <Ce>1</Ce>
+        <A>0</A>
+        <I>1</I>
+        <D>0</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/CodeCommit/Exception/CodeCommitException.php">CodeCommitException</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package>Aws\Exception</Package>
+      </DependsUpon>
+      <UsedBy/>
+    </Package>
+    <Package name="Aws\CodeDeploy">
+      <Stats>
+        <TotalClasses>1</TotalClasses>
+        <ConcreteClasses>1</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>0</Ca>
+        <Ce>1</Ce>
+        <A>0</A>
+        <I>1</I>
+        <D>0</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/CodeDeploy/CodeDeployClient.php">CodeDeployClient</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package>Aws</Package>
+      </DependsUpon>
+      <UsedBy/>
+    </Package>
+    <Package name="Aws\CodeDeploy\Exception">
+      <Stats>
+        <TotalClasses>1</TotalClasses>
+        <ConcreteClasses>1</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>0</Ca>
+        <Ce>1</Ce>
+        <A>0</A>
+        <I>1</I>
+        <D>0</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/CodeDeploy/Exception/CodeDeployException.php">CodeDeployException</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package>Aws\Exception</Package>
+      </DependsUpon>
+      <UsedBy/>
+    </Package>
+    <Package name="Aws\CodePipeline">
+      <Stats>
+        <TotalClasses>1</TotalClasses>
+        <ConcreteClasses>1</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>0</Ca>
+        <Ce>1</Ce>
+        <A>0</A>
+        <I>1</I>
+        <D>0</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/CodePipeline/CodePipelineClient.php">CodePipelineClient</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package>Aws</Package>
+      </DependsUpon>
+      <UsedBy/>
+    </Package>
+    <Package name="Aws\CodePipeline\Exception">
+      <Stats>
+        <TotalClasses>1</TotalClasses>
+        <ConcreteClasses>1</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>0</Ca>
+        <Ce>1</Ce>
+        <A>0</A>
+        <I>1</I>
+        <D>0</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/CodePipeline/Exception/CodePipelineException.php">CodePipelineException</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package>Aws\Exception</Package>
+      </DependsUpon>
+      <UsedBy/>
+    </Package>
+    <Package name="Aws\CognitoIdentity">
+      <Stats>
+        <TotalClasses>1</TotalClasses>
+        <ConcreteClasses>1</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>0</Ca>
+        <Ce>1</Ce>
+        <A>0</A>
+        <I>1</I>
+        <D>0</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/CognitoIdentity/CognitoIdentityClient.php">CognitoIdentityClient</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package>Aws</Package>
+      </DependsUpon>
+      <UsedBy/>
+    </Package>
+    <Package name="Aws\CognitoIdentity\Exception">
+      <Stats>
+        <TotalClasses>1</TotalClasses>
+        <ConcreteClasses>1</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>0</Ca>
+        <Ce>1</Ce>
+        <A>0</A>
+        <I>1</I>
+        <D>0</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/CognitoIdentity/Exception/CognitoIdentityException.php">CognitoIdentityException</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package>Aws\Exception</Package>
+      </DependsUpon>
+      <UsedBy/>
+    </Package>
+    <Package name="Aws\CognitoIdentityProvider">
+      <Stats>
+        <TotalClasses>1</TotalClasses>
+        <ConcreteClasses>1</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>0</Ca>
+        <Ce>1</Ce>
+        <A>0</A>
+        <I>1</I>
+        <D>0</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/CognitoIdentityProvider/CognitoIdentityProviderClient.php">CognitoIdentityProviderClient</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package>Aws</Package>
+      </DependsUpon>
+      <UsedBy/>
+    </Package>
+    <Package name="Aws\CognitoIdentityProvider\Exception">
+      <Stats>
+        <TotalClasses>1</TotalClasses>
+        <ConcreteClasses>1</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>0</Ca>
+        <Ce>1</Ce>
+        <A>0</A>
+        <I>1</I>
+        <D>0</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/CognitoIdentityProvider/Exception/CognitoIdentityProviderException.php">CognitoIdentityProviderException</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package>Aws\Exception</Package>
+      </DependsUpon>
+      <UsedBy/>
+    </Package>
+    <Package name="Aws\CognitoSync">
+      <Stats>
+        <TotalClasses>1</TotalClasses>
+        <ConcreteClasses>1</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>0</Ca>
+        <Ce>1</Ce>
+        <A>0</A>
+        <I>1</I>
+        <D>0</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/CognitoSync/CognitoSyncClient.php">CognitoSyncClient</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package>Aws</Package>
+      </DependsUpon>
+      <UsedBy/>
+    </Package>
+    <Package name="Aws\CognitoSync\Exception">
+      <Stats>
+        <TotalClasses>1</TotalClasses>
+        <ConcreteClasses>1</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>0</Ca>
+        <Ce>1</Ce>
+        <A>0</A>
+        <I>1</I>
+        <D>0</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/CognitoSync/Exception/CognitoSyncException.php">CognitoSyncException</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package>Aws\Exception</Package>
+      </DependsUpon>
+      <UsedBy/>
+    </Package>
+    <Package name="Aws\ConfigService">
+      <Stats>
+        <TotalClasses>1</TotalClasses>
+        <ConcreteClasses>1</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>0</Ca>
+        <Ce>1</Ce>
+        <A>0</A>
+        <I>1</I>
+        <D>0</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/ConfigService/ConfigServiceClient.php">ConfigServiceClient</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package>Aws</Package>
+      </DependsUpon>
+      <UsedBy/>
+    </Package>
+    <Package name="Aws\ConfigService\Exception">
+      <Stats>
+        <TotalClasses>1</TotalClasses>
+        <ConcreteClasses>1</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>0</Ca>
+        <Ce>1</Ce>
+        <A>0</A>
+        <I>1</I>
+        <D>0</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/ConfigService/Exception/ConfigServiceException.php">ConfigServiceException</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package>Aws\Exception</Package>
+      </DependsUpon>
+      <UsedBy/>
+    </Package>
+    <Package name="Aws\Credentials">
+      <Stats>
+        <TotalClasses>4</TotalClasses>
+        <ConcreteClasses>3</ConcreteClasses>
+        <AbstractClasses>1</AbstractClasses>
+        <Ca>4</Ca>
+        <Ce>4</Ce>
+        <A>0.25</A>
+        <I>0.5</I>
+        <D>0.25</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/Credentials/CredentialProvider.php">CredentialProvider</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/Credentials/Credentials.php">Credentials</Class>
+      </ConcreteClasses>
+      <AbstractClasses>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/Credentials/CredentialsInterface.php">CredentialsInterface</Class>
+      </AbstractClasses>
+      <DependsUpon>
+        <Package></Package>
+        <Package>Aws</Package>
+        <Package>Aws\Exception</Package>
+        <Package>GuzzleHttp\Promise</Package>
+      </DependsUpon>
+      <UsedBy>
+        <Package>Aws\S3</Package>
+        <Package>Aws\Ses</Package>
+        <Package>Aws\Signature</Package>
+        <Package>Aws\Sts</Package>
+      </UsedBy>
+    </Package>
+    <Package name="Aws\DataPipeline">
+      <Stats>
+        <TotalClasses>1</TotalClasses>
+        <ConcreteClasses>1</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>0</Ca>
+        <Ce>1</Ce>
+        <A>0</A>
+        <I>1</I>
+        <D>0</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/DataPipeline/DataPipelineClient.php">DataPipelineClient</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package>Aws</Package>
+      </DependsUpon>
+      <UsedBy/>
+    </Package>
+    <Package name="Aws\DataPipeline\Exception">
+      <Stats>
+        <TotalClasses>1</TotalClasses>
+        <ConcreteClasses>1</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>0</Ca>
+        <Ce>1</Ce>
+        <A>0</A>
+        <I>1</I>
+        <D>0</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/DataPipeline/Exception/DataPipelineException.php">DataPipelineException</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package>Aws\Exception</Package>
+      </DependsUpon>
+      <UsedBy/>
+    </Package>
+    <Package name="Aws\DatabaseMigrationService">
+      <Stats>
+        <TotalClasses>1</TotalClasses>
+        <ConcreteClasses>1</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>0</Ca>
+        <Ce>1</Ce>
+        <A>0</A>
+        <I>1</I>
+        <D>0</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/DatabaseMigrationService/DatabaseMigrationServiceClient.php">DatabaseMigrationServiceClient</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package>Aws</Package>
+      </DependsUpon>
+      <UsedBy/>
+    </Package>
+    <Package name="Aws\DatabaseMigrationService\Exception">
+      <Stats>
+        <TotalClasses>1</TotalClasses>
+        <ConcreteClasses>1</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>0</Ca>
+        <Ce>1</Ce>
+        <A>0</A>
+        <I>1</I>
+        <D>0</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/DatabaseMigrationService/Exception/DatabaseMigrationServiceException.php">DatabaseMigrationServiceException</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package>Aws\Exception</Package>
+      </DependsUpon>
+      <UsedBy/>
+    </Package>
+    <Package name="Aws\DeviceFarm">
+      <Stats>
+        <TotalClasses>1</TotalClasses>
+        <ConcreteClasses>1</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>0</Ca>
+        <Ce>1</Ce>
+        <A>0</A>
+        <I>1</I>
+        <D>0</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/DeviceFarm/DeviceFarmClient.php">DeviceFarmClient</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package>Aws</Package>
+      </DependsUpon>
+      <UsedBy/>
+    </Package>
+    <Package name="Aws\DeviceFarm\Exception">
+      <Stats>
+        <TotalClasses>1</TotalClasses>
+        <ConcreteClasses>1</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>0</Ca>
+        <Ce>1</Ce>
+        <A>0</A>
+        <I>1</I>
+        <D>0</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/DeviceFarm/Exception/DeviceFarmException.php">DeviceFarmException</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package>Aws\Exception</Package>
+      </DependsUpon>
+      <UsedBy/>
+    </Package>
+    <Package name="Aws\DirectConnect">
+      <Stats>
+        <TotalClasses>1</TotalClasses>
+        <ConcreteClasses>1</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>0</Ca>
+        <Ce>1</Ce>
+        <A>0</A>
+        <I>1</I>
+        <D>0</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/DirectConnect/DirectConnectClient.php">DirectConnectClient</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package>Aws</Package>
+      </DependsUpon>
+      <UsedBy/>
+    </Package>
+    <Package name="Aws\DirectConnect\Exception">
+      <Stats>
+        <TotalClasses>1</TotalClasses>
+        <ConcreteClasses>1</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>0</Ca>
+        <Ce>1</Ce>
+        <A>0</A>
+        <I>1</I>
+        <D>0</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/DirectConnect/Exception/DirectConnectException.php">DirectConnectException</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package>Aws\Exception</Package>
+      </DependsUpon>
+      <UsedBy/>
+    </Package>
+    <Package name="Aws\DirectoryService">
+      <Stats>
+        <TotalClasses>1</TotalClasses>
+        <ConcreteClasses>1</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>0</Ca>
+        <Ce>1</Ce>
+        <A>0</A>
+        <I>1</I>
+        <D>0</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/DirectoryService/DirectoryServiceClient.php">DirectoryServiceClient</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package>Aws</Package>
+      </DependsUpon>
+      <UsedBy/>
+    </Package>
+    <Package name="Aws\DirectoryService\Exception">
+      <Stats>
+        <TotalClasses>1</TotalClasses>
+        <ConcreteClasses>1</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>0</Ca>
+        <Ce>1</Ce>
+        <A>0</A>
+        <I>1</I>
+        <D>0</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/DirectoryService/Exception/DirectoryServiceException.php">DirectoryServiceException</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package>Aws\Exception</Package>
+      </DependsUpon>
+      <UsedBy/>
+    </Package>
+    <Package name="Aws\DynamoDb">
+      <Stats>
+        <TotalClasses>10</TotalClasses>
+        <ConcreteClasses>9</ConcreteClasses>
+        <AbstractClasses>1</AbstractClasses>
+        <Ca>0</Ca>
+        <Ce>6</Ce>
+        <A>0.1</A>
+        <I>1</I>
+        <D>0.1</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/DynamoDb/BinaryValue.php">BinaryValue</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/DynamoDb/DynamoDbClient.php">DynamoDbClient</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/DynamoDb/LockingSessionConnection.php">LockingSessionConnection</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/DynamoDb/Marshaler.php">Marshaler</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/DynamoDb/NumberValue.php">NumberValue</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/DynamoDb/SessionHandler.php">SessionHandler</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/DynamoDb/SetValue.php">SetValue</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/DynamoDb/StandardSessionConnection.php">StandardSessionConnection</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/DynamoDb/WriteRequestBatch.php">WriteRequestBatch</Class>
+      </ConcreteClasses>
+      <AbstractClasses>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/DynamoDb/SessionConnectionInterface.php">SessionConnectionInterface</Class>
+      </AbstractClasses>
+      <DependsUpon>
+        <Package></Package>
+        <Package>Aws</Package>
+        <Package>Aws\Api\Parser</Package>
+        <Package>Aws\DynamoDb\Exception</Package>
+        <Package>Aws\Exception</Package>
+        <Package>Psr\Http\Message</Package>
+      </DependsUpon>
+      <UsedBy/>
+    </Package>
+    <Package name="Aws\DynamoDb\Exception">
+      <Stats>
+        <TotalClasses>1</TotalClasses>
+        <ConcreteClasses>1</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>1</Ca>
+        <Ce>1</Ce>
+        <A>0</A>
+        <I>0.5</I>
+        <D>0.5</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/DynamoDb/Exception/DynamoDbException.php">DynamoDbException</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package>Aws\Exception</Package>
+      </DependsUpon>
+      <UsedBy>
+        <Package>Aws\DynamoDb</Package>
+      </UsedBy>
+    </Package>
+    <Package name="Aws\DynamoDbStreams\Exception">
+      <Stats>
+        <TotalClasses>1</TotalClasses>
+        <ConcreteClasses>1</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>0</Ca>
+        <Ce>1</Ce>
+        <A>0</A>
+        <I>1</I>
+        <D>0</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/DynamoDbStreams/Exception/DynamoDbStreamsException.php">DynamoDbStreamsException</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package>Aws\Exception</Package>
+      </DependsUpon>
+      <UsedBy/>
+    </Package>
+    <Package name="Aws\Ec2">
+      <Stats>
+        <TotalClasses>2</TotalClasses>
+        <ConcreteClasses>2</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>0</Ca>
+        <Ce>6</Ce>
+        <A>0</A>
+        <I>1</I>
+        <D>0</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/Ec2/CopySnapshotMiddleware.php">CopySnapshotMiddleware</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/Ec2/Ec2Client.php">Ec2Client</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package>Aws</Package>
+        <Package>Aws\Api</Package>
+        <Package>Aws\Endpoint</Package>
+        <Package>Aws\Signature</Package>
+        <Package>GuzzleHttp\Psr7</Package>
+        <Package>Psr\Http\Message</Package>
+      </DependsUpon>
+      <UsedBy/>
+    </Package>
+    <Package name="Aws\Ec2\Exception">
+      <Stats>
+        <TotalClasses>1</TotalClasses>
+        <ConcreteClasses>1</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>0</Ca>
+        <Ce>1</Ce>
+        <A>0</A>
+        <I>1</I>
+        <D>0</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/Ec2/Exception/Ec2Exception.php">Ec2Exception</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package>Aws\Exception</Package>
+      </DependsUpon>
+      <UsedBy/>
+    </Package>
+    <Package name="Aws\Ecr">
+      <Stats>
+        <TotalClasses>1</TotalClasses>
+        <ConcreteClasses>1</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>0</Ca>
+        <Ce>1</Ce>
+        <A>0</A>
+        <I>1</I>
+        <D>0</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/Ecr/EcrClient.php">EcrClient</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package>Aws</Package>
+      </DependsUpon>
+      <UsedBy/>
+    </Package>
+    <Package name="Aws\Ecr\Exception">
+      <Stats>
+        <TotalClasses>1</TotalClasses>
+        <ConcreteClasses>1</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>0</Ca>
+        <Ce>1</Ce>
+        <A>0</A>
+        <I>1</I>
+        <D>0</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/Ecr/Exception/EcrException.php">EcrException</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package>Aws\Exception</Package>
+      </DependsUpon>
+      <UsedBy/>
+    </Package>
+    <Package name="Aws\Ecs">
+      <Stats>
+        <TotalClasses>1</TotalClasses>
+        <ConcreteClasses>1</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>0</Ca>
+        <Ce>1</Ce>
+        <A>0</A>
+        <I>1</I>
+        <D>0</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/Ecs/EcsClient.php">EcsClient</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package>Aws</Package>
+      </DependsUpon>
+      <UsedBy/>
+    </Package>
+    <Package name="Aws\Ecs\Exception">
+      <Stats>
+        <TotalClasses>1</TotalClasses>
+        <ConcreteClasses>1</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>0</Ca>
+        <Ce>1</Ce>
+        <A>0</A>
+        <I>1</I>
+        <D>0</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/Ecs/Exception/EcsException.php">EcsException</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package>Aws\Exception</Package>
+      </DependsUpon>
+      <UsedBy/>
+    </Package>
+    <Package name="Aws\Efs">
+      <Stats>
+        <TotalClasses>1</TotalClasses>
+        <ConcreteClasses>1</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>0</Ca>
+        <Ce>1</Ce>
+        <A>0</A>
+        <I>1</I>
+        <D>0</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/Efs/EfsClient.php">EfsClient</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package>Aws</Package>
+      </DependsUpon>
+      <UsedBy/>
+    </Package>
+    <Package name="Aws\Efs\Exception">
+      <Stats>
+        <TotalClasses>1</TotalClasses>
+        <ConcreteClasses>1</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>0</Ca>
+        <Ce>1</Ce>
+        <A>0</A>
+        <I>1</I>
+        <D>0</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/Efs/Exception/EfsException.php">EfsException</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package>Aws\Exception</Package>
+      </DependsUpon>
+      <UsedBy/>
+    </Package>
+    <Package name="Aws\ElastiCache">
+      <Stats>
+        <TotalClasses>1</TotalClasses>
+        <ConcreteClasses>1</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>0</Ca>
+        <Ce>1</Ce>
+        <A>0</A>
+        <I>1</I>
+        <D>0</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/ElastiCache/ElastiCacheClient.php">ElastiCacheClient</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package>Aws</Package>
+      </DependsUpon>
+      <UsedBy/>
+    </Package>
+    <Package name="Aws\ElastiCache\Exception">
+      <Stats>
+        <TotalClasses>1</TotalClasses>
+        <ConcreteClasses>1</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>0</Ca>
+        <Ce>1</Ce>
+        <A>0</A>
+        <I>1</I>
+        <D>0</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/ElastiCache/Exception/ElastiCacheException.php">ElastiCacheException</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package>Aws\Exception</Package>
+      </DependsUpon>
+      <UsedBy/>
+    </Package>
+    <Package name="Aws\ElasticBeanstalk">
+      <Stats>
+        <TotalClasses>1</TotalClasses>
+        <ConcreteClasses>1</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>0</Ca>
+        <Ce>1</Ce>
+        <A>0</A>
+        <I>1</I>
+        <D>0</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/ElasticBeanstalk/ElasticBeanstalkClient.php">ElasticBeanstalkClient</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package>Aws</Package>
+      </DependsUpon>
+      <UsedBy/>
+    </Package>
+    <Package name="Aws\ElasticBeanstalk\Exception">
+      <Stats>
+        <TotalClasses>1</TotalClasses>
+        <ConcreteClasses>1</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>0</Ca>
+        <Ce>1</Ce>
+        <A>0</A>
+        <I>1</I>
+        <D>0</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/ElasticBeanstalk/Exception/ElasticBeanstalkException.php">ElasticBeanstalkException</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package>Aws\Exception</Package>
+      </DependsUpon>
+      <UsedBy/>
+    </Package>
+    <Package name="Aws\ElasticLoadBalancing">
+      <Stats>
+        <TotalClasses>1</TotalClasses>
+        <ConcreteClasses>1</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>0</Ca>
+        <Ce>1</Ce>
+        <A>0</A>
+        <I>1</I>
+        <D>0</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/ElasticLoadBalancing/ElasticLoadBalancingClient.php">ElasticLoadBalancingClient</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package>Aws</Package>
+      </DependsUpon>
+      <UsedBy/>
+    </Package>
+    <Package name="Aws\ElasticLoadBalancing\Exception">
+      <Stats>
+        <TotalClasses>1</TotalClasses>
+        <ConcreteClasses>1</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>0</Ca>
+        <Ce>1</Ce>
+        <A>0</A>
+        <I>1</I>
+        <D>0</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/ElasticLoadBalancing/Exception/ElasticLoadBalancingException.php">ElasticLoadBalancingException</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package>Aws\Exception</Package>
+      </DependsUpon>
+      <UsedBy/>
+    </Package>
+    <Package name="Aws\ElasticTranscoder">
+      <Stats>
+        <TotalClasses>1</TotalClasses>
+        <ConcreteClasses>1</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>0</Ca>
+        <Ce>1</Ce>
+        <A>0</A>
+        <I>1</I>
+        <D>0</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/ElasticTranscoder/ElasticTranscoderClient.php">ElasticTranscoderClient</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package>Aws</Package>
+      </DependsUpon>
+      <UsedBy/>
+    </Package>
+    <Package name="Aws\ElasticTranscoder\Exception">
+      <Stats>
+        <TotalClasses>1</TotalClasses>
+        <ConcreteClasses>1</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>0</Ca>
+        <Ce>1</Ce>
+        <A>0</A>
+        <I>1</I>
+        <D>0</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/ElasticTranscoder/Exception/ElasticTranscoderException.php">ElasticTranscoderException</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package>Aws\Exception</Package>
+      </DependsUpon>
+      <UsedBy/>
+    </Package>
+    <Package name="Aws\ElasticsearchService">
+      <Stats>
+        <TotalClasses>1</TotalClasses>
+        <ConcreteClasses>1</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>0</Ca>
+        <Ce>1</Ce>
+        <A>0</A>
+        <I>1</I>
+        <D>0</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/ElasticsearchService/ElasticsearchServiceClient.php">ElasticsearchServiceClient</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package>Aws</Package>
+      </DependsUpon>
+      <UsedBy/>
+    </Package>
+    <Package name="Aws\ElasticsearchService\Exception">
+      <Stats>
+        <TotalClasses>1</TotalClasses>
+        <ConcreteClasses>1</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>0</Ca>
+        <Ce>1</Ce>
+        <A>0</A>
+        <I>1</I>
+        <D>0</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/ElasticsearchService/Exception/ElasticsearchServiceException.php">ElasticsearchServiceException</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package>Aws\Exception</Package>
+      </DependsUpon>
+      <UsedBy/>
+    </Package>
+    <Package name="Aws\Emr">
+      <Stats>
+        <TotalClasses>1</TotalClasses>
+        <ConcreteClasses>1</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>0</Ca>
+        <Ce>1</Ce>
+        <A>0</A>
+        <I>1</I>
+        <D>0</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/Emr/EmrClient.php">EmrClient</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package>Aws</Package>
+      </DependsUpon>
+      <UsedBy/>
+    </Package>
+    <Package name="Aws\Emr\Exception">
+      <Stats>
+        <TotalClasses>1</TotalClasses>
+        <ConcreteClasses>1</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>0</Ca>
+        <Ce>1</Ce>
+        <A>0</A>
+        <I>1</I>
+        <D>0</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/Emr/Exception/EmrException.php">EmrException</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package>Aws\Exception</Package>
+      </DependsUpon>
+      <UsedBy/>
+    </Package>
+    <Package name="Aws\Endpoint">
+      <Stats>
+        <TotalClasses>2</TotalClasses>
+        <ConcreteClasses>2</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>1</Ca>
+        <Ce>1</Ce>
+        <A>0</A>
+        <I>0.5</I>
+        <D>0.5</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/Endpoint/EndpointProvider.php">EndpointProvider</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/Endpoint/PatternEndpointProvider.php">PatternEndpointProvider</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package>Aws\Exception</Package>
+      </DependsUpon>
+      <UsedBy>
+        <Package>Aws\Ec2</Package>
+      </UsedBy>
+    </Package>
+    <Package name="Aws\Exception">
+      <Stats>
+        <TotalClasses>7</TotalClasses>
+        <ConcreteClasses>7</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>73</Ca>
+        <Ce>3</Ce>
+        <A>0</A>
+        <I>0.039473684210526</I>
+        <D>0.96052631578947</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/Exception/AwsException.php">AwsException</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/Exception/CouldNotCreateChecksumException.php">CouldNotCreateChecksumException</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/Exception/CredentialsException.php">CredentialsException</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/Exception/MultipartUploadException.php">MultipartUploadException</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/Exception/UnresolvedApiException.php">UnresolvedApiException</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/Exception/UnresolvedEndpointException.php">UnresolvedEndpointException</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/Exception/UnresolvedSignatureException.php">UnresolvedSignatureException</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package></Package>
+        <Package>Aws</Package>
+        <Package>Aws\Multipart</Package>
+      </DependsUpon>
+      <UsedBy>
+        <Package>Aws</Package>
+        <Package>Aws\Acm\Exception</Package>
+        <Package>Aws\Api</Package>
+        <Package>Aws\ApiGateway\Exception</Package>
+        <Package>Aws\Api\Parser</Package>
+        <Package>Aws\AutoScaling\Exception</Package>
+        <Package>Aws\CloudFormation\Exception</Package>
+        <Package>Aws\CloudFront\Exception</Package>
+        <Package>Aws\CloudHsm\Exception</Package>
+        <Package>Aws\CloudSearchDomain\Exception</Package>
+        <Package>Aws\CloudSearch\Exception</Package>
+        <Package>Aws\CloudTrail\Exception</Package>
+        <Package>Aws\CloudWatchEvents\Exception</Package>
+        <Package>Aws\CloudWatchLogs\Exception</Package>
+        <Package>Aws\CloudWatch\Exception</Package>
+        <Package>Aws\CodeCommit\Exception</Package>
+        <Package>Aws\CodeDeploy\Exception</Package>
+        <Package>Aws\CodePipeline\Exception</Package>
+        <Package>Aws\CognitoIdentityProvider\Exception</Package>
+        <Package>Aws\CognitoIdentity\Exception</Package>
+        <Package>Aws\CognitoSync\Exception</Package>
+        <Package>Aws\ConfigService\Exception</Package>
+        <Package>Aws\Credentials</Package>
+        <Package>Aws\DataPipeline\Exception</Package>
+        <Package>Aws\DatabaseMigrationService\Exception</Package>
+        <Package>Aws\DeviceFarm\Exception</Package>
+        <Package>Aws\DirectConnect\Exception</Package>
+        <Package>Aws\DirectoryService\Exception</Package>
+        <Package>Aws\DynamoDb</Package>
+        <Package>Aws\DynamoDbStreams\Exception</Package>
+        <Package>Aws\DynamoDb\Exception</Package>
+        <Package>Aws\Ec2\Exception</Package>
+        <Package>Aws\Ecr\Exception</Package>
+        <Package>Aws\Ecs\Exception</Package>
+        <Package>Aws\Efs\Exception</Package>
+        <Package>Aws\ElastiCache\Exception</Package>
+        <Package>Aws\ElasticBeanstalk\Exception</Package>
+        <Package>Aws\ElasticLoadBalancing\Exception</Package>
+        <Package>Aws\ElasticTranscoder\Exception</Package>
+        <Package>Aws\ElasticsearchService\Exception</Package>
+        <Package>Aws\Emr\Exception</Package>
+        <Package>Aws\Endpoint</Package>
+        <Package>Aws\Firehose\Exception</Package>
+        <Package>Aws\GameLift\Exception</Package>
+        <Package>Aws\Glacier</Package>
+        <Package>Aws\Glacier\Exception</Package>
+        <Package>Aws\Iam\Exception</Package>
+        <Package>Aws\Inspector\Exception</Package>
+        <Package>Aws\IotDataPlane\Exception</Package>
+        <Package>Aws\Iot\Exception</Package>
+        <Package>Aws\Kinesis\Exception</Package>
+        <Package>Aws\Kms\Exception</Package>
+        <Package>Aws\Lambda\Exception</Package>
+        <Package>Aws\MachineLearning\Exception</Package>
+        <Package>Aws\MarketplaceCommerceAnalytics\Exception</Package>
+        <Package>Aws\MarketplaceMetering\Exception</Package>
+        <Package>Aws\OpsWorks\Exception</Package>
+        <Package>Aws\Rds\Exception</Package>
+        <Package>Aws\Redshift\Exception</Package>
+        <Package>Aws\Route53Domains\Exception</Package>
+        <Package>Aws\Route53\Exception</Package>
+        <Package>Aws\S3\Exception</Package>
+        <Package>Aws\Ses\Exception</Package>
+        <Package>Aws\Signature</Package>
+        <Package>Aws\Sns\Exception</Package>
+        <Package>Aws\Sqs\Exception</Package>
+        <Package>Aws\Ssm\Exception</Package>
+        <Package>Aws\StorageGateway\Exception</Package>
+        <Package>Aws\Sts\Exception</Package>
+        <Package>Aws\Support\Exception</Package>
+        <Package>Aws\Swf\Exception</Package>
+        <Package>Aws\Waf\Exception</Package>
+        <Package>Aws\WorkSpaces\Exception</Package>
+      </UsedBy>
+    </Package>
+    <Package name="Aws\Firehose\Exception">
+      <Stats>
+        <TotalClasses>1</TotalClasses>
+        <ConcreteClasses>1</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>0</Ca>
+        <Ce>1</Ce>
+        <A>0</A>
+        <I>1</I>
+        <D>0</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/Firehose/Exception/FirehoseException.php">FirehoseException</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package>Aws\Exception</Package>
+      </DependsUpon>
+      <UsedBy/>
+    </Package>
+    <Package name="Aws\Firehose">
+      <Stats>
+        <TotalClasses>1</TotalClasses>
+        <ConcreteClasses>1</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>0</Ca>
+        <Ce>1</Ce>
+        <A>0</A>
+        <I>1</I>
+        <D>0</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/Firehose/FirehoseClient.php">FirehoseClient</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package>Aws</Package>
+      </DependsUpon>
+      <UsedBy/>
+    </Package>
+    <Package name="Aws\GameLift\Exception">
+      <Stats>
+        <TotalClasses>1</TotalClasses>
+        <ConcreteClasses>1</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>0</Ca>
+        <Ce>1</Ce>
+        <A>0</A>
+        <I>1</I>
+        <D>0</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/GameLift/Exception/GameLiftException.php">GameLiftException</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package>Aws\Exception</Package>
+      </DependsUpon>
+      <UsedBy/>
+    </Package>
+    <Package name="Aws\GameLift">
+      <Stats>
+        <TotalClasses>1</TotalClasses>
+        <ConcreteClasses>1</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>0</Ca>
+        <Ce>1</Ce>
+        <A>0</A>
+        <I>1</I>
+        <D>0</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/GameLift/GameLiftClient.php">GameLiftClient</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package>Aws</Package>
+      </DependsUpon>
+      <UsedBy/>
+    </Package>
+    <Package name="Aws\Glacier\Exception">
+      <Stats>
+        <TotalClasses>1</TotalClasses>
+        <ConcreteClasses>1</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>0</Ca>
+        <Ce>1</Ce>
+        <A>0</A>
+        <I>1</I>
+        <D>0</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/Glacier/Exception/GlacierException.php">GlacierException</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package>Aws\Exception</Package>
+      </DependsUpon>
+      <UsedBy/>
+    </Package>
+    <Package name="Aws\Glacier">
+      <Stats>
+        <TotalClasses>3</TotalClasses>
+        <ConcreteClasses>3</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>0</Ca>
+        <Ce>6</Ce>
+        <A>0</A>
+        <I>1</I>
+        <D>0</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/Glacier/GlacierClient.php">GlacierClient</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/Glacier/MultipartUploader.php">MultipartUploader</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/Glacier/TreeHash.php">TreeHash</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package></Package>
+        <Package>Aws</Package>
+        <Package>Aws\Api</Package>
+        <Package>Aws\Exception</Package>
+        <Package>Aws\Multipart</Package>
+        <Package>Psr\Http\Message</Package>
+      </DependsUpon>
+      <UsedBy/>
+    </Package>
+    <Package name="Aws\Handler\GuzzleV5">
+      <Stats>
+        <TotalClasses>3</TotalClasses>
+        <ConcreteClasses>3</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>0</Ca>
+        <Ce>9</Ce>
+        <A>0</A>
+        <I>1</I>
+        <D>0</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/Handler/GuzzleV5/GuzzleHandler.php">GuzzleHandler</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/Handler/GuzzleV5/GuzzleStream.php">GuzzleStream</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/Handler/GuzzleV5/PsrStream.php">PsrStream</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package></Package>
+        <Package>GuzzleHttp</Package>
+        <Package>GuzzleHttp\Event</Package>
+        <Package>GuzzleHttp\Exception</Package>
+        <Package>GuzzleHttp\Message</Package>
+        <Package>GuzzleHttp\Promise</Package>
+        <Package>GuzzleHttp\Psr7</Package>
+        <Package>GuzzleHttp\Stream</Package>
+        <Package>Psr\Http\Message</Package>
+      </DependsUpon>
+      <UsedBy/>
+    </Package>
+    <Package name="Aws\Handler\GuzzleV6">
+      <Stats>
+        <TotalClasses>1</TotalClasses>
+        <ConcreteClasses>1</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>0</Ca>
+        <Ce>5</Ce>
+        <A>0</A>
+        <I>1</I>
+        <D>0</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/Handler/GuzzleV6/GuzzleHandler.php">GuzzleHandler</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package></Package>
+        <Package>GuzzleHttp</Package>
+        <Package>GuzzleHttp\Exception</Package>
+        <Package>GuzzleHttp\Promise</Package>
+        <Package>Psr\Http\Message</Package>
+      </DependsUpon>
+      <UsedBy/>
+    </Package>
+    <Package name="Aws\Iam\Exception">
+      <Stats>
+        <TotalClasses>1</TotalClasses>
+        <ConcreteClasses>1</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>0</Ca>
+        <Ce>1</Ce>
+        <A>0</A>
+        <I>1</I>
+        <D>0</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/Iam/Exception/IamException.php">IamException</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package>Aws\Exception</Package>
+      </DependsUpon>
+      <UsedBy/>
+    </Package>
+    <Package name="Aws\Iam">
+      <Stats>
+        <TotalClasses>1</TotalClasses>
+        <ConcreteClasses>1</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>0</Ca>
+        <Ce>1</Ce>
+        <A>0</A>
+        <I>1</I>
+        <D>0</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/Iam/IamClient.php">IamClient</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package>Aws</Package>
+      </DependsUpon>
+      <UsedBy/>
+    </Package>
+    <Package name="Aws\Inspector\Exception">
+      <Stats>
+        <TotalClasses>1</TotalClasses>
+        <ConcreteClasses>1</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>0</Ca>
+        <Ce>1</Ce>
+        <A>0</A>
+        <I>1</I>
+        <D>0</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/Inspector/Exception/InspectorException.php">InspectorException</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package>Aws\Exception</Package>
+      </DependsUpon>
+      <UsedBy/>
+    </Package>
+    <Package name="Aws\Inspector">
+      <Stats>
+        <TotalClasses>1</TotalClasses>
+        <ConcreteClasses>1</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>0</Ca>
+        <Ce>1</Ce>
+        <A>0</A>
+        <I>1</I>
+        <D>0</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/Inspector/InspectorClient.php">InspectorClient</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package>Aws</Package>
+      </DependsUpon>
+      <UsedBy/>
+    </Package>
+    <Package name="Aws\Iot\Exception">
+      <Stats>
+        <TotalClasses>1</TotalClasses>
+        <ConcreteClasses>1</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>0</Ca>
+        <Ce>1</Ce>
+        <A>0</A>
+        <I>1</I>
+        <D>0</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/Iot/Exception/IotException.php">IotException</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package>Aws\Exception</Package>
+      </DependsUpon>
+      <UsedBy/>
+    </Package>
+    <Package name="Aws\Iot">
+      <Stats>
+        <TotalClasses>1</TotalClasses>
+        <ConcreteClasses>1</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>0</Ca>
+        <Ce>1</Ce>
+        <A>0</A>
+        <I>1</I>
+        <D>0</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/Iot/IotClient.php">IotClient</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package>Aws</Package>
+      </DependsUpon>
+      <UsedBy/>
+    </Package>
+    <Package name="Aws\IotDataPlane\Exception">
+      <Stats>
+        <TotalClasses>1</TotalClasses>
+        <ConcreteClasses>1</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>0</Ca>
+        <Ce>1</Ce>
+        <A>0</A>
+        <I>1</I>
+        <D>0</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/IotDataPlane/Exception/IotDataPlaneException.php">IotDataPlaneException</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package>Aws\Exception</Package>
+      </DependsUpon>
+      <UsedBy/>
+    </Package>
+    <Package name="Aws\IotDataPlane">
+      <Stats>
+        <TotalClasses>1</TotalClasses>
+        <ConcreteClasses>1</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>0</Ca>
+        <Ce>1</Ce>
+        <A>0</A>
+        <I>1</I>
+        <D>0</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/IotDataPlane/IotDataPlaneClient.php">IotDataPlaneClient</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package>Aws</Package>
+      </DependsUpon>
+      <UsedBy/>
+    </Package>
+    <Package name="Aws\Kinesis\Exception">
+      <Stats>
+        <TotalClasses>1</TotalClasses>
+        <ConcreteClasses>1</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>0</Ca>
+        <Ce>1</Ce>
+        <A>0</A>
+        <I>1</I>
+        <D>0</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/Kinesis/Exception/KinesisException.php">KinesisException</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package>Aws\Exception</Package>
+      </DependsUpon>
+      <UsedBy/>
+    </Package>
+    <Package name="Aws\Kinesis">
+      <Stats>
+        <TotalClasses>1</TotalClasses>
+        <ConcreteClasses>1</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>0</Ca>
+        <Ce>1</Ce>
+        <A>0</A>
+        <I>1</I>
+        <D>0</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/Kinesis/KinesisClient.php">KinesisClient</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package>Aws</Package>
+      </DependsUpon>
+      <UsedBy/>
+    </Package>
+    <Package name="Aws\Kms\Exception">
+      <Stats>
+        <TotalClasses>1</TotalClasses>
+        <ConcreteClasses>1</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>0</Ca>
+        <Ce>1</Ce>
+        <A>0</A>
+        <I>1</I>
+        <D>0</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/Kms/Exception/KmsException.php">KmsException</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package>Aws\Exception</Package>
+      </DependsUpon>
+      <UsedBy/>
+    </Package>
+    <Package name="Aws\Kms">
+      <Stats>
+        <TotalClasses>1</TotalClasses>
+        <ConcreteClasses>1</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>0</Ca>
+        <Ce>1</Ce>
+        <A>0</A>
+        <I>1</I>
+        <D>0</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/Kms/KmsClient.php">KmsClient</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package>Aws</Package>
+      </DependsUpon>
+      <UsedBy/>
+    </Package>
+    <Package name="Aws\Lambda\Exception">
+      <Stats>
+        <TotalClasses>1</TotalClasses>
+        <ConcreteClasses>1</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>0</Ca>
+        <Ce>1</Ce>
+        <A>0</A>
+        <I>1</I>
+        <D>0</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/Lambda/Exception/LambdaException.php">LambdaException</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package>Aws\Exception</Package>
+      </DependsUpon>
+      <UsedBy/>
+    </Package>
+    <Package name="Aws\Lambda">
+      <Stats>
+        <TotalClasses>1</TotalClasses>
+        <ConcreteClasses>1</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>0</Ca>
+        <Ce>1</Ce>
+        <A>0</A>
+        <I>1</I>
+        <D>0</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/Lambda/LambdaClient.php">LambdaClient</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package>Aws</Package>
+      </DependsUpon>
+      <UsedBy/>
+    </Package>
+    <Package name="Aws\MachineLearning\Exception">
+      <Stats>
+        <TotalClasses>1</TotalClasses>
+        <ConcreteClasses>1</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>0</Ca>
+        <Ce>1</Ce>
+        <A>0</A>
+        <I>1</I>
+        <D>0</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/MachineLearning/Exception/MachineLearningException.php">MachineLearningException</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package>Aws\Exception</Package>
+      </DependsUpon>
+      <UsedBy/>
+    </Package>
+    <Package name="Aws\MachineLearning">
+      <Stats>
+        <TotalClasses>1</TotalClasses>
+        <ConcreteClasses>1</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>0</Ca>
+        <Ce>3</Ce>
+        <A>0</A>
+        <I>1</I>
+        <D>0</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/MachineLearning/MachineLearningClient.php">MachineLearningClient</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package>Aws</Package>
+        <Package>GuzzleHttp\Psr7</Package>
+        <Package>Psr\Http\Message</Package>
+      </DependsUpon>
+      <UsedBy/>
+    </Package>
+    <Package name="Aws\MarketplaceCommerceAnalytics\Exception">
+      <Stats>
+        <TotalClasses>1</TotalClasses>
+        <ConcreteClasses>1</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>0</Ca>
+        <Ce>1</Ce>
+        <A>0</A>
+        <I>1</I>
+        <D>0</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/MarketplaceCommerceAnalytics/Exception/MarketplaceCommerceAnalyticsException.php">MarketplaceCommerceAnalyticsException</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package>Aws\Exception</Package>
+      </DependsUpon>
+      <UsedBy/>
+    </Package>
+    <Package name="Aws\MarketplaceCommerceAnalytics">
+      <Stats>
+        <TotalClasses>1</TotalClasses>
+        <ConcreteClasses>1</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>0</Ca>
+        <Ce>1</Ce>
+        <A>0</A>
+        <I>1</I>
+        <D>0</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/MarketplaceCommerceAnalytics/MarketplaceCommerceAnalyticsClient.php">MarketplaceCommerceAnalyticsClient</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package>Aws</Package>
+      </DependsUpon>
+      <UsedBy/>
+    </Package>
+    <Package name="Aws\MarketplaceMetering\Exception">
+      <Stats>
+        <TotalClasses>1</TotalClasses>
+        <ConcreteClasses>1</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>0</Ca>
+        <Ce>1</Ce>
+        <A>0</A>
+        <I>1</I>
+        <D>0</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/MarketplaceMetering/Exception/MarketplaceMeteringException.php">MarketplaceMeteringException</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package>Aws\Exception</Package>
+      </DependsUpon>
+      <UsedBy/>
+    </Package>
+    <Package name="Aws\MarketplaceMetering">
+      <Stats>
+        <TotalClasses>1</TotalClasses>
+        <ConcreteClasses>1</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>0</Ca>
+        <Ce>1</Ce>
+        <A>0</A>
+        <I>1</I>
+        <D>0</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/MarketplaceMetering/MarketplaceMeteringClient.php">MarketplaceMeteringClient</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package>Aws</Package>
+      </DependsUpon>
+      <UsedBy/>
+    </Package>
+    <Package name="Aws\Multipart">
+      <Stats>
+        <TotalClasses>2</TotalClasses>
+        <ConcreteClasses>2</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>3</Ca>
+        <Ce>0</Ce>
+        <A>0</A>
+        <I>0</I>
+        <D>1</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/Multipart/UploadState.php">UploadState</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon/>
+      <UsedBy>
+        <Package>Aws\Exception</Package>
+        <Package>Aws\Glacier</Package>
+        <Package>Aws\S3</Package>
+      </UsedBy>
+    </Package>
+    <Package name="Aws\OpsWorks\Exception">
+      <Stats>
+        <TotalClasses>1</TotalClasses>
+        <ConcreteClasses>1</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>0</Ca>
+        <Ce>1</Ce>
+        <A>0</A>
+        <I>1</I>
+        <D>0</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/OpsWorks/Exception/OpsWorksException.php">OpsWorksException</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package>Aws\Exception</Package>
+      </DependsUpon>
+      <UsedBy/>
+    </Package>
+    <Package name="Aws\OpsWorks">
+      <Stats>
+        <TotalClasses>1</TotalClasses>
+        <ConcreteClasses>1</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>0</Ca>
+        <Ce>1</Ce>
+        <A>0</A>
+        <I>1</I>
+        <D>0</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/OpsWorks/OpsWorksClient.php">OpsWorksClient</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package>Aws</Package>
+      </DependsUpon>
+      <UsedBy/>
+    </Package>
+    <Package name="Aws\Rds\Exception">
+      <Stats>
+        <TotalClasses>1</TotalClasses>
+        <ConcreteClasses>1</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>0</Ca>
+        <Ce>1</Ce>
+        <A>0</A>
+        <I>1</I>
+        <D>0</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/Rds/Exception/RdsException.php">RdsException</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package>Aws\Exception</Package>
+      </DependsUpon>
+      <UsedBy/>
+    </Package>
+    <Package name="Aws\Rds">
+      <Stats>
+        <TotalClasses>1</TotalClasses>
+        <ConcreteClasses>1</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>0</Ca>
+        <Ce>1</Ce>
+        <A>0</A>
+        <I>1</I>
+        <D>0</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/Rds/RdsClient.php">RdsClient</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package>Aws</Package>
+      </DependsUpon>
+      <UsedBy/>
+    </Package>
+    <Package name="Aws\Redshift\Exception">
+      <Stats>
+        <TotalClasses>1</TotalClasses>
+        <ConcreteClasses>1</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>0</Ca>
+        <Ce>1</Ce>
+        <A>0</A>
+        <I>1</I>
+        <D>0</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/Redshift/Exception/RedshiftException.php">RedshiftException</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package>Aws\Exception</Package>
+      </DependsUpon>
+      <UsedBy/>
+    </Package>
+    <Package name="Aws\Redshift">
+      <Stats>
+        <TotalClasses>1</TotalClasses>
+        <ConcreteClasses>1</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>0</Ca>
+        <Ce>1</Ce>
+        <A>0</A>
+        <I>1</I>
+        <D>0</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/Redshift/RedshiftClient.php">RedshiftClient</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package>Aws</Package>
+      </DependsUpon>
+      <UsedBy/>
+    </Package>
+    <Package name="Aws\Route53\Exception">
+      <Stats>
+        <TotalClasses>1</TotalClasses>
+        <ConcreteClasses>1</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>0</Ca>
+        <Ce>1</Ce>
+        <A>0</A>
+        <I>1</I>
+        <D>0</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/Route53/Exception/Route53Exception.php">Route53Exception</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package>Aws\Exception</Package>
+      </DependsUpon>
+      <UsedBy/>
+    </Package>
+    <Package name="Aws\Route53">
+      <Stats>
+        <TotalClasses>1</TotalClasses>
+        <ConcreteClasses>1</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>0</Ca>
+        <Ce>2</Ce>
+        <A>0</A>
+        <I>1</I>
+        <D>0</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/Route53/Route53Client.php">Route53Client</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package>Aws</Package>
+        <Package>Psr\Http\Message</Package>
+      </DependsUpon>
+      <UsedBy/>
+    </Package>
+    <Package name="Aws\Route53Domains\Exception">
+      <Stats>
+        <TotalClasses>1</TotalClasses>
+        <ConcreteClasses>1</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>0</Ca>
+        <Ce>1</Ce>
+        <A>0</A>
+        <I>1</I>
+        <D>0</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/Route53Domains/Exception/Route53DomainsException.php">Route53DomainsException</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package>Aws\Exception</Package>
+      </DependsUpon>
+      <UsedBy/>
+    </Package>
+    <Package name="Aws\Route53Domains">
+      <Stats>
+        <TotalClasses>1</TotalClasses>
+        <ConcreteClasses>1</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>0</Ca>
+        <Ce>1</Ce>
+        <A>0</A>
+        <I>1</I>
+        <D>0</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/Route53Domains/Route53DomainsClient.php">Route53DomainsClient</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package>Aws</Package>
+      </DependsUpon>
+      <UsedBy/>
+    </Package>
+    <Package name="Aws\S3">
+      <Stats>
+        <TotalClasses>18</TotalClasses>
+        <ConcreteClasses>17</ConcreteClasses>
+        <AbstractClasses>1</AbstractClasses>
+        <Ca>2</Ca>
+        <Ce>11</Ce>
+        <A>0.055555555555556</A>
+        <I>0.84615384615385</I>
+        <D>0.098290598290598</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/S3/AccelerateMiddleware.php">AccelerateMiddleware</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/S3/ApplyChecksumMiddleware.php">ApplyChecksumMiddleware</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/S3/BucketEndpointMiddleware.php">BucketEndpointMiddleware</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/S3/GetBucketLocationParser.php">GetBucketLocationParser</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/S3/MultipartUploader.php">MultipartUploader</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/S3/ObjectUploader.php">ObjectUploader</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/S3/PermanentRedirectMiddleware.php">PermanentRedirectMiddleware</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/S3/PostObject.php">PostObject</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/S3/PostObjectV4.php">PostObjectV4</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/S3/PutObjectUrlMiddleware.php">PutObjectUrlMiddleware</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/S3/S3UriParser.php">S3UriParser</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/S3/SSECMiddleware.php">SSECMiddleware</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/S3/StreamWrapper.php">StreamWrapper</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/S3/Transfer.php">Transfer</Class>
+      </ConcreteClasses>
+      <AbstractClasses>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/S3/S3ClientInterface.php">S3ClientInterface</Class>
+      </AbstractClasses>
+      <DependsUpon>
+        <Package></Package>
+        <Package>Aws</Package>
+        <Package>Aws\Api</Package>
+        <Package>Aws\Api\Parser</Package>
+        <Package>Aws\Credentials</Package>
+        <Package>Aws\Multipart</Package>
+        <Package>Aws\S3\Exception</Package>
+        <Package>Aws\Signature</Package>
+        <Package>GuzzleHttp\Promise</Package>
+        <Package>GuzzleHttp\Psr7</Package>
+        <Package>Psr\Http\Message</Package>
+      </DependsUpon>
+      <UsedBy>
+        <Package>+global</Package>
+        <Package>Aws\CloudTrail</Package>
+      </UsedBy>
+    </Package>
+    <Package name="Aws\S3\Exception">
+      <Stats>
+        <TotalClasses>3</TotalClasses>
+        <ConcreteClasses>3</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>1</Ca>
+        <Ce>2</Ce>
+        <A>0</A>
+        <I>0.66666666666667</I>
+        <D>0.33333333333333</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/S3/Exception/DeleteMultipleObjectsException.php">DeleteMultipleObjectsException</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/S3/Exception/PermanentRedirectException.php">PermanentRedirectException</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/S3/Exception/S3Exception.php">S3Exception</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package></Package>
+        <Package>Aws\Exception</Package>
+      </DependsUpon>
+      <UsedBy>
+        <Package>Aws\S3</Package>
+      </UsedBy>
+    </Package>
+    <Package name="Aws\Ses\Exception">
+      <Stats>
+        <TotalClasses>1</TotalClasses>
+        <ConcreteClasses>1</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>0</Ca>
+        <Ce>1</Ce>
+        <A>0</A>
+        <I>1</I>
+        <D>0</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/Ses/Exception/SesException.php">SesException</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package>Aws\Exception</Package>
+      </DependsUpon>
+      <UsedBy/>
+    </Package>
+    <Package name="Aws\Ses">
+      <Stats>
+        <TotalClasses>1</TotalClasses>
+        <ConcreteClasses>1</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>0</Ca>
+        <Ce>2</Ce>
+        <A>0</A>
+        <I>1</I>
+        <D>0</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/Ses/SesClient.php">SesClient</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package>Aws</Package>
+        <Package>Aws\Credentials</Package>
+      </DependsUpon>
+      <UsedBy/>
+    </Package>
+    <Package name="Aws\Signature">
+      <Stats>
+        <TotalClasses>5</TotalClasses>
+        <ConcreteClasses>4</ConcreteClasses>
+        <AbstractClasses>1</AbstractClasses>
+        <Ca>2</Ca>
+        <Ce>5</Ce>
+        <A>0.2</A>
+        <I>0.71428571428571</I>
+        <D>0.085714285714286</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/Signature/AnonymousSignature.php">AnonymousSignature</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/Signature/S3SignatureV4.php">S3SignatureV4</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/Signature/SignatureProvider.php">SignatureProvider</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/Signature/SignatureV4.php">SignatureV4</Class>
+      </ConcreteClasses>
+      <AbstractClasses>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/Signature/SignatureInterface.php">SignatureInterface</Class>
+      </AbstractClasses>
+      <DependsUpon>
+        <Package></Package>
+        <Package>Aws\Credentials</Package>
+        <Package>Aws\Exception</Package>
+        <Package>GuzzleHttp\Psr7</Package>
+        <Package>Psr\Http\Message</Package>
+      </DependsUpon>
+      <UsedBy>
+        <Package>Aws\Ec2</Package>
+        <Package>Aws\S3</Package>
+      </UsedBy>
+    </Package>
+    <Package name="Aws\Sns\Exception">
+      <Stats>
+        <TotalClasses>2</TotalClasses>
+        <ConcreteClasses>2</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>1</Ca>
+        <Ce>2</Ce>
+        <A>0</A>
+        <I>0.66666666666667</I>
+        <D>0.33333333333333</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/Sns/Exception/InvalidSnsMessageException.php">InvalidSnsMessageException</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/Sns/Exception/SnsException.php">SnsException</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package></Package>
+        <Package>Aws\Exception</Package>
+      </DependsUpon>
+      <UsedBy>
+        <Package>Aws\Sns</Package>
+      </UsedBy>
+    </Package>
+    <Package name="Aws\Sns">
+      <Stats>
+        <TotalClasses>3</TotalClasses>
+        <ConcreteClasses>3</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>0</Ca>
+        <Ce>3</Ce>
+        <A>0</A>
+        <I>1</I>
+        <D>0</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/Sns/Message.php">Message</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/Sns/MessageValidator.php">MessageValidator</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/Sns/SnsClient.php">SnsClient</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package></Package>
+        <Package>Aws</Package>
+        <Package>Aws\Sns\Exception</Package>
+      </DependsUpon>
+      <UsedBy/>
+    </Package>
+    <Package name="Aws\Sqs\Exception">
+      <Stats>
+        <TotalClasses>1</TotalClasses>
+        <ConcreteClasses>1</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>1</Ca>
+        <Ce>1</Ce>
+        <A>0</A>
+        <I>0.5</I>
+        <D>0.5</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/Sqs/Exception/SqsException.php">SqsException</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package>Aws\Exception</Package>
+      </DependsUpon>
+      <UsedBy>
+        <Package>Aws\Sqs</Package>
+      </UsedBy>
+    </Package>
+    <Package name="Aws\Sqs">
+      <Stats>
+        <TotalClasses>1</TotalClasses>
+        <ConcreteClasses>1</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>0</Ca>
+        <Ce>4</Ce>
+        <A>0</A>
+        <I>1</I>
+        <D>0</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/Sqs/SqsClient.php">SqsClient</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package>Aws</Package>
+        <Package>Aws\Sqs\Exception</Package>
+        <Package>GuzzleHttp\Psr7</Package>
+        <Package>Psr\Http\Message</Package>
+      </DependsUpon>
+      <UsedBy/>
+    </Package>
+    <Package name="Aws\Ssm\Exception">
+      <Stats>
+        <TotalClasses>1</TotalClasses>
+        <ConcreteClasses>1</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>0</Ca>
+        <Ce>1</Ce>
+        <A>0</A>
+        <I>1</I>
+        <D>0</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/Ssm/Exception/SsmException.php">SsmException</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package>Aws\Exception</Package>
+      </DependsUpon>
+      <UsedBy/>
+    </Package>
+    <Package name="Aws\Ssm">
+      <Stats>
+        <TotalClasses>1</TotalClasses>
+        <ConcreteClasses>1</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>0</Ca>
+        <Ce>1</Ce>
+        <A>0</A>
+        <I>1</I>
+        <D>0</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/Ssm/SsmClient.php">SsmClient</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package>Aws</Package>
+      </DependsUpon>
+      <UsedBy/>
+    </Package>
+    <Package name="Aws\StorageGateway\Exception">
+      <Stats>
+        <TotalClasses>1</TotalClasses>
+        <ConcreteClasses>1</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>0</Ca>
+        <Ce>1</Ce>
+        <A>0</A>
+        <I>1</I>
+        <D>0</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/StorageGateway/Exception/StorageGatewayException.php">StorageGatewayException</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package>Aws\Exception</Package>
+      </DependsUpon>
+      <UsedBy/>
+    </Package>
+    <Package name="Aws\StorageGateway">
+      <Stats>
+        <TotalClasses>1</TotalClasses>
+        <ConcreteClasses>1</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>0</Ca>
+        <Ce>1</Ce>
+        <A>0</A>
+        <I>1</I>
+        <D>0</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/StorageGateway/StorageGatewayClient.php">StorageGatewayClient</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package>Aws</Package>
+      </DependsUpon>
+      <UsedBy/>
+    </Package>
+    <Package name="Aws\Sts\Exception">
+      <Stats>
+        <TotalClasses>1</TotalClasses>
+        <ConcreteClasses>1</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>0</Ca>
+        <Ce>1</Ce>
+        <A>0</A>
+        <I>1</I>
+        <D>0</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/Sts/Exception/StsException.php">StsException</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package>Aws\Exception</Package>
+      </DependsUpon>
+      <UsedBy/>
+    </Package>
+    <Package name="Aws\Sts">
+      <Stats>
+        <TotalClasses>1</TotalClasses>
+        <ConcreteClasses>1</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>0</Ca>
+        <Ce>3</Ce>
+        <A>0</A>
+        <I>1</I>
+        <D>0</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/Sts/StsClient.php">StsClient</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package></Package>
+        <Package>Aws</Package>
+        <Package>Aws\Credentials</Package>
+      </DependsUpon>
+      <UsedBy/>
+    </Package>
+    <Package name="Aws\Support\Exception">
+      <Stats>
+        <TotalClasses>1</TotalClasses>
+        <ConcreteClasses>1</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>0</Ca>
+        <Ce>1</Ce>
+        <A>0</A>
+        <I>1</I>
+        <D>0</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/Support/Exception/SupportException.php">SupportException</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package>Aws\Exception</Package>
+      </DependsUpon>
+      <UsedBy/>
+    </Package>
+    <Package name="Aws\Support">
+      <Stats>
+        <TotalClasses>1</TotalClasses>
+        <ConcreteClasses>1</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>0</Ca>
+        <Ce>1</Ce>
+        <A>0</A>
+        <I>1</I>
+        <D>0</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/Support/SupportClient.php">SupportClient</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package>Aws</Package>
+      </DependsUpon>
+      <UsedBy/>
+    </Package>
+    <Package name="Aws\Swf\Exception">
+      <Stats>
+        <TotalClasses>1</TotalClasses>
+        <ConcreteClasses>1</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>0</Ca>
+        <Ce>1</Ce>
+        <A>0</A>
+        <I>1</I>
+        <D>0</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/Swf/Exception/SwfException.php">SwfException</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package>Aws\Exception</Package>
+      </DependsUpon>
+      <UsedBy/>
+    </Package>
+    <Package name="Aws\Swf">
+      <Stats>
+        <TotalClasses>1</TotalClasses>
+        <ConcreteClasses>1</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>0</Ca>
+        <Ce>1</Ce>
+        <A>0</A>
+        <I>1</I>
+        <D>0</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/Swf/SwfClient.php">SwfClient</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package>Aws</Package>
+      </DependsUpon>
+      <UsedBy/>
+    </Package>
+    <Package name="Aws\Waf\Exception">
+      <Stats>
+        <TotalClasses>1</TotalClasses>
+        <ConcreteClasses>1</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>0</Ca>
+        <Ce>1</Ce>
+        <A>0</A>
+        <I>1</I>
+        <D>0</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/Waf/Exception/WafException.php">WafException</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package>Aws\Exception</Package>
+      </DependsUpon>
+      <UsedBy/>
+    </Package>
+    <Package name="Aws\Waf">
+      <Stats>
+        <TotalClasses>1</TotalClasses>
+        <ConcreteClasses>1</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>0</Ca>
+        <Ce>1</Ce>
+        <A>0</A>
+        <I>1</I>
+        <D>0</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/Waf/WafClient.php">WafClient</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package>Aws</Package>
+      </DependsUpon>
+      <UsedBy/>
+    </Package>
+    <Package name="Aws\WorkSpaces\Exception">
+      <Stats>
+        <TotalClasses>1</TotalClasses>
+        <ConcreteClasses>1</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>0</Ca>
+        <Ce>1</Ce>
+        <A>0</A>
+        <I>1</I>
+        <D>0</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/WorkSpaces/Exception/WorkSpacesException.php">WorkSpacesException</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package>Aws\Exception</Package>
+      </DependsUpon>
+      <UsedBy/>
+    </Package>
+    <Package name="Aws\WorkSpaces">
+      <Stats>
+        <TotalClasses>1</TotalClasses>
+        <ConcreteClasses>1</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>0</Ca>
+        <Ce>1</Ce>
+        <A>0</A>
+        <I>1</I>
+        <D>0</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Aws/WorkSpaces/WorkSpacesClient.php">WorkSpacesClient</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package>Aws</Package>
+      </DependsUpon>
+      <UsedBy/>
+    </Package>
+    <Package name="GuzzleHttp">
+      <Stats>
+        <TotalClasses>11</TotalClasses>
+        <ConcreteClasses>10</ConcreteClasses>
+        <AbstractClasses>1</AbstractClasses>
+        <Ca>3</Ca>
+        <Ce>7</Ce>
+        <A>0.090909090909091</A>
+        <I>0.7</I>
+        <D>0.20909090909091</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/GuzzleHttp/Client.php">Client</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/GuzzleHttp/HandlerStack.php">HandlerStack</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/GuzzleHttp/MessageFormatter.php">MessageFormatter</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/GuzzleHttp/Middleware.php">Middleware</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/GuzzleHttp/PrepareBodyMiddleware.php">PrepareBodyMiddleware</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/GuzzleHttp/RedirectMiddleware.php">RedirectMiddleware</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/GuzzleHttp/RequestOptions.php">RequestOptions</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/GuzzleHttp/RetryMiddleware.php">RetryMiddleware</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/GuzzleHttp/TransferStats.php">TransferStats</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/GuzzleHttp/UriTemplate.php">UriTemplate</Class>
+      </ConcreteClasses>
+      <AbstractClasses>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/GuzzleHttp/ClientInterface.php">ClientInterface</Class>
+      </AbstractClasses>
+      <DependsUpon>
+        <Package></Package>
+        <Package>GuzzleHttp\Cookie</Package>
+        <Package>GuzzleHttp\Exception</Package>
+        <Package>GuzzleHttp\Promise</Package>
+        <Package>GuzzleHttp\Psr7</Package>
+        <Package>Psr\Http\Message</Package>
+        <Package>Psr\Log</Package>
+      </DependsUpon>
+      <UsedBy>
+        <Package>Aws\Handler\GuzzleV5</Package>
+        <Package>Aws\Handler\GuzzleV6</Package>
+        <Package>GuzzleHttp\Handler</Package>
+      </UsedBy>
+    </Package>
+    <Package name="GuzzleHttp\Cookie">
+      <Stats>
+        <TotalClasses>5</TotalClasses>
+        <ConcreteClasses>4</ConcreteClasses>
+        <AbstractClasses>1</AbstractClasses>
+        <Ca>1</Ca>
+        <Ce>2</Ce>
+        <A>0.2</A>
+        <I>0.66666666666667</I>
+        <D>0.13333333333333</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/GuzzleHttp/Cookie/CookieJar.php">CookieJar</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/GuzzleHttp/Cookie/FileCookieJar.php">FileCookieJar</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/GuzzleHttp/Cookie/SessionCookieJar.php">SessionCookieJar</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/GuzzleHttp/Cookie/SetCookie.php">SetCookie</Class>
+      </ConcreteClasses>
+      <AbstractClasses>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/GuzzleHttp/Cookie/CookieJarInterface.php">CookieJarInterface</Class>
+      </AbstractClasses>
+      <DependsUpon>
+        <Package></Package>
+        <Package>Psr\Http\Message</Package>
+      </DependsUpon>
+      <UsedBy>
+        <Package>GuzzleHttp</Package>
+      </UsedBy>
+    </Package>
+    <Package name="GuzzleHttp\Exception">
+      <Stats>
+        <TotalClasses>9</TotalClasses>
+        <ConcreteClasses>8</ConcreteClasses>
+        <AbstractClasses>1</AbstractClasses>
+        <Ca>4</Ca>
+        <Ce>3</Ce>
+        <A>0.11111111111111</A>
+        <I>0.42857142857143</I>
+        <D>0.46031746031746</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/GuzzleHttp/Exception/BadResponseException.php">BadResponseException</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/GuzzleHttp/Exception/ClientException.php">ClientException</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/GuzzleHttp/Exception/ConnectException.php">ConnectException</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/GuzzleHttp/Exception/RequestException.php">RequestException</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/GuzzleHttp/Exception/SeekException.php">SeekException</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/GuzzleHttp/Exception/ServerException.php">ServerException</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/GuzzleHttp/Exception/TooManyRedirectsException.php">TooManyRedirectsException</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/GuzzleHttp/Exception/TransferException.php">TransferException</Class>
+      </ConcreteClasses>
+      <AbstractClasses>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/GuzzleHttp/Exception/GuzzleException.php">GuzzleException</Class>
+      </AbstractClasses>
+      <DependsUpon>
+        <Package></Package>
+        <Package>GuzzleHttp\Promise</Package>
+        <Package>Psr\Http\Message</Package>
+      </DependsUpon>
+      <UsedBy>
+        <Package>Aws\Handler\GuzzleV5</Package>
+        <Package>Aws\Handler\GuzzleV6</Package>
+        <Package>GuzzleHttp</Package>
+        <Package>GuzzleHttp\Handler</Package>
+      </UsedBy>
+    </Package>
+    <Package name="GuzzleHttp\Handler">
+      <Stats>
+        <TotalClasses>8</TotalClasses>
+        <ConcreteClasses>7</ConcreteClasses>
+        <AbstractClasses>1</AbstractClasses>
+        <Ca>0</Ca>
+        <Ce>6</Ce>
+        <A>0.125</A>
+        <I>1</I>
+        <D>0.125</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/GuzzleHttp/Handler/CurlFactory.php">CurlFactory</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/GuzzleHttp/Handler/CurlHandler.php">CurlHandler</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/GuzzleHttp/Handler/CurlMultiHandler.php">CurlMultiHandler</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/GuzzleHttp/Handler/EasyHandle.php">EasyHandle</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/GuzzleHttp/Handler/MockHandler.php">MockHandler</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/GuzzleHttp/Handler/Proxy.php">Proxy</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/GuzzleHttp/Handler/StreamHandler.php">StreamHandler</Class>
+      </ConcreteClasses>
+      <AbstractClasses>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/GuzzleHttp/Handler/CurlFactoryInterface.php">CurlFactoryInterface</Class>
+      </AbstractClasses>
+      <DependsUpon>
+        <Package></Package>
+        <Package>GuzzleHttp</Package>
+        <Package>GuzzleHttp\Exception</Package>
+        <Package>GuzzleHttp\Promise</Package>
+        <Package>GuzzleHttp\Psr7</Package>
+        <Package>Psr\Http\Message</Package>
+      </DependsUpon>
+      <UsedBy/>
+    </Package>
+    <Package name="GuzzleHttp\Promise">
+      <Stats>
+        <TotalClasses>10</TotalClasses>
+        <ConcreteClasses>8</ConcreteClasses>
+        <AbstractClasses>2</AbstractClasses>
+        <Ca>8</Ca>
+        <Ce>1</Ce>
+        <A>0.2</A>
+        <I>0.11111111111111</I>
+        <D>0.68888888888889</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/GuzzleHttp/Promise/AggregateException.php">AggregateException</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/GuzzleHttp/Promise/CancellationException.php">CancellationException</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/GuzzleHttp/Promise/EachPromise.php">EachPromise</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/GuzzleHttp/Promise/FulfilledPromise.php">FulfilledPromise</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/GuzzleHttp/Promise/Promise.php">Promise</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/GuzzleHttp/Promise/RejectedPromise.php">RejectedPromise</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/GuzzleHttp/Promise/RejectionException.php">RejectionException</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/GuzzleHttp/Promise/TaskQueue.php">TaskQueue</Class>
+      </ConcreteClasses>
+      <AbstractClasses>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/GuzzleHttp/Promise/PromiseInterface.php">PromiseInterface</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/GuzzleHttp/Promise/PromisorInterface.php">PromisorInterface</Class>
+      </AbstractClasses>
+      <DependsUpon>
+        <Package></Package>
+      </DependsUpon>
+      <UsedBy>
+        <Package>Aws</Package>
+        <Package>Aws\Credentials</Package>
+        <Package>Aws\Handler\GuzzleV5</Package>
+        <Package>Aws\Handler\GuzzleV6</Package>
+        <Package>Aws\S3</Package>
+        <Package>GuzzleHttp</Package>
+        <Package>GuzzleHttp\Exception</Package>
+        <Package>GuzzleHttp\Handler</Package>
+      </UsedBy>
+    </Package>
+    <Package name="GuzzleHttp\Psr7">
+      <Stats>
+        <TotalClasses>18</TotalClasses>
+        <ConcreteClasses>18</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>11</Ca>
+        <Ce>2</Ce>
+        <A>0</A>
+        <I>0.15384615384615</I>
+        <D>0.84615384615385</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/GuzzleHttp/Psr7/AppendStream.php">AppendStream</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/GuzzleHttp/Psr7/BufferStream.php">BufferStream</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/GuzzleHttp/Psr7/CachingStream.php">CachingStream</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/GuzzleHttp/Psr7/DroppingStream.php">DroppingStream</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/GuzzleHttp/Psr7/FnStream.php">FnStream</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/GuzzleHttp/Psr7/InflateStream.php">InflateStream</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/GuzzleHttp/Psr7/LazyOpenStream.php">LazyOpenStream</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/GuzzleHttp/Psr7/LimitStream.php">LimitStream</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/GuzzleHttp/Psr7/MultipartStream.php">MultipartStream</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/GuzzleHttp/Psr7/NoSeekStream.php">NoSeekStream</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/GuzzleHttp/Psr7/PumpStream.php">PumpStream</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/GuzzleHttp/Psr7/Request.php">Request</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/GuzzleHttp/Psr7/Response.php">Response</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/GuzzleHttp/Psr7/ServerRequest.php">ServerRequest</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/GuzzleHttp/Psr7/Stream.php">Stream</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/GuzzleHttp/Psr7/StreamWrapper.php">StreamWrapper</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/GuzzleHttp/Psr7/UploadedFile.php">UploadedFile</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/GuzzleHttp/Psr7/Uri.php">Uri</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package></Package>
+        <Package>Psr\Http\Message</Package>
+      </DependsUpon>
+      <UsedBy>
+        <Package>Aws\Api\Serializer</Package>
+        <Package>Aws\CloudFront</Package>
+        <Package>Aws\CloudSearchDomain</Package>
+        <Package>Aws\Ec2</Package>
+        <Package>Aws\Handler\GuzzleV5</Package>
+        <Package>Aws\MachineLearning</Package>
+        <Package>Aws\S3</Package>
+        <Package>Aws\Signature</Package>
+        <Package>Aws\Sqs</Package>
+        <Package>GuzzleHttp</Package>
+        <Package>GuzzleHttp\Handler</Package>
+      </UsedBy>
+    </Package>
+    <Package name="JmesPath">
+      <Stats>
+        <TotalClasses>11</TotalClasses>
+        <ConcreteClasses>11</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>1</Ca>
+        <Ce>1</Ce>
+        <A>0</A>
+        <I>0.5</I>
+        <D>0.5</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/JmesPath/AstRuntime.php">AstRuntime</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/JmesPath/CompilerRuntime.php">CompilerRuntime</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/JmesPath/DebugRuntime.php">DebugRuntime</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/JmesPath/Env.php">Env</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/JmesPath/FnDispatcher.php">FnDispatcher</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/JmesPath/Lexer.php">Lexer</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/JmesPath/Parser.php">Parser</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/JmesPath/SyntaxErrorException.php">SyntaxErrorException</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/JmesPath/TreeCompiler.php">TreeCompiler</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/JmesPath/TreeInterpreter.php">TreeInterpreter</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/JmesPath/Utils.php">Utils</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package></Package>
+      </DependsUpon>
+      <UsedBy>
+        <Package>Aws</Package>
+      </UsedBy>
+    </Package>
+    <Package name="Psr\Http\Message">
+      <Stats>
+        <TotalClasses>7</TotalClasses>
+        <ConcreteClasses>0</ConcreteClasses>
+        <AbstractClasses>7</AbstractClasses>
+        <Ca>20</Ca>
+        <Ce>0</Ce>
+        <A>1</A>
+        <I>0</I>
+        <D>0</D>
+      </Stats>
+      <ConcreteClasses/>
+      <AbstractClasses>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Psr/Http/Message/MessageInterface.php">MessageInterface</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Psr/Http/Message/RequestInterface.php">RequestInterface</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Psr/Http/Message/ResponseInterface.php">ResponseInterface</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Psr/Http/Message/ServerRequestInterface.php">ServerRequestInterface</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Psr/Http/Message/StreamInterface.php">StreamInterface</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Psr/Http/Message/UploadedFileInterface.php">UploadedFileInterface</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/aws/Psr/Http/Message/UriInterface.php">UriInterface</Class>
+      </AbstractClasses>
+      <DependsUpon/>
+      <UsedBy>
+        <Package>Aws</Package>
+        <Package>Aws\ApiGateway</Package>
+        <Package>Aws\Api\ErrorParser</Package>
+        <Package>Aws\Api\Parser</Package>
+        <Package>Aws\CloudFront</Package>
+        <Package>Aws\DynamoDb</Package>
+        <Package>Aws\Ec2</Package>
+        <Package>Aws\Glacier</Package>
+        <Package>Aws\Handler\GuzzleV5</Package>
+        <Package>Aws\Handler\GuzzleV6</Package>
+        <Package>Aws\MachineLearning</Package>
+        <Package>Aws\Route53</Package>
+        <Package>Aws\S3</Package>
+        <Package>Aws\Signature</Package>
+        <Package>Aws\Sqs</Package>
+        <Package>GuzzleHttp</Package>
+        <Package>GuzzleHttp\Cookie</Package>
+        <Package>GuzzleHttp\Exception</Package>
+        <Package>GuzzleHttp\Handler</Package>
+        <Package>GuzzleHttp\Psr7</Package>
+      </UsedBy>
+    </Package>
+    <Package name="CodeIgniter\codeigniter">
+      <Stats>
+        <TotalClasses>2</TotalClasses>
+        <ConcreteClasses>2</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>2</Ca>
+        <Ce>1</Ce>
+        <A>0</A>
+        <I>0.33333333333333</I>
+        <D>0.66666666666667</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/system/codeigniter/Base4.php">CI_Base</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/system/codeigniter/Base5.php">CI_Base</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package>CodeIgniter\Libraries</Package>
+      </DependsUpon>
+      <UsedBy>
+        <Package>+global</Package>
+        <Package>CodeIgniter\Libraries</Package>
+      </UsedBy>
+    </Package>
+    <Package name="CodeIgniter">
+      <Stats>
+        <TotalClasses>26</TotalClasses>
+        <ConcreteClasses>26</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>1</Ca>
+        <Ce>1</Ce>
+        <A>0</A>
+        <I>0.5</I>
+        <D>0.5</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/system/database/DB_cache.php">CI_DB_Cache</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/system/database/DB_forge.php">CI_DB_forge</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/system/database/DB_result.php">CI_DB_result</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/system/database/DB_utility.php">CI_DB_utility</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/system/database/drivers/mssql/mssql_forge.php">CI_DB_mssql_forge</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/system/database/drivers/mssql/mssql_result.php">CI_DB_mssql_result</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/system/database/drivers/mssql/mssql_utility.php">CI_DB_mssql_utility</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/system/database/drivers/mysql/mysql_forge.php">CI_DB_mysql_forge</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/system/database/drivers/mysql/mysql_result.php">CI_DB_mysql_result</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/system/database/drivers/mysql/mysql_utility.php">CI_DB_mysql_utility</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/system/database/drivers/mysqli/mysqli_forge.php">CI_DB_mysqli_forge</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/system/database/drivers/mysqli/mysqli_result.php">CI_DB_mysqli_result</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/system/database/drivers/mysqli/mysqli_utility.php">CI_DB_mysqli_utility</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/system/database/drivers/oci8/oci8_forge.php">CI_DB_oci8_forge</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/system/database/drivers/oci8/oci8_result.php">CI_DB_oci8_result</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/system/database/drivers/oci8/oci8_utility.php">CI_DB_oci8_utility</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/system/database/drivers/odbc/odbc_forge.php">CI_DB_odbc_forge</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/system/database/drivers/odbc/odbc_result.php">CI_DB_odbc_result</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/system/database/drivers/odbc/odbc_utility.php">CI_DB_odbc_utility</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/system/database/drivers/postgre/postgre_forge.php">CI_DB_postgre_forge</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/system/database/drivers/postgre/postgre_result.php">CI_DB_postgre_result</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/system/database/drivers/postgre/postgre_utility.php">CI_DB_postgre_utility</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/system/database/drivers/sqlite/sqlite_forge.php">CI_DB_sqlite_forge</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/system/database/drivers/sqlite/sqlite_result.php">CI_DB_sqlite_result</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/system/database/drivers/sqlite/sqlite_utility.php">CI_DB_sqlite_utility</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/system/libraries/Typography.php">CI_Typography</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package>+core</Package>
+      </DependsUpon>
+      <UsedBy>
+        <Package>CodeIgniter\Drivers</Package>
+      </UsedBy>
+    </Package>
+    <Package name="CodeIgniter\Drivers">
+      <Stats>
+        <TotalClasses>9</TotalClasses>
+        <ConcreteClasses>9</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>0</Ca>
+        <Ce>2</Ce>
+        <A>0</A>
+        <I>1</I>
+        <D>0</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/system/database/DB_active_rec.php">CI_DB_active_record</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/system/database/DB_driver.php">CI_DB_driver</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/system/database/drivers/mssql/mssql_driver.php">CI_DB_mssql_driver</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/system/database/drivers/mysql/mysql_driver.php">CI_DB_mysql_driver</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/system/database/drivers/mysqli/mysqli_driver.php">CI_DB_mysqli_driver</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/system/database/drivers/oci8/oci8_driver.php">CI_DB_oci8_driver</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/system/database/drivers/odbc/odbc_driver.php">CI_DB_odbc_driver</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/system/database/drivers/postgre/postgre_driver.php">CI_DB_postgre_driver</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/system/database/drivers/sqlite/sqlite_driver.php">CI_DB_sqlite_driver</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package>+global</Package>
+        <Package>CodeIgniter</Package>
+      </DependsUpon>
+      <UsedBy/>
+    </Package>
+    <Package name="CodeIgniter\Libraries">
+      <Stats>
+        <TotalClasses>34</TotalClasses>
+        <ConcreteClasses>34</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>2</Ca>
+        <Ce>3</Ce>
+        <A>0</A>
+        <I>0.6</I>
+        <D>0.4</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/system/libraries/Benchmark.php">CI_Benchmark</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/system/libraries/Calendar.php">CI_Calendar</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/system/libraries/Cart.php">CI_Cart</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/system/libraries/Config.php">CI_Config</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/system/libraries/Controller.php">Controller</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/system/libraries/Email.php">CI_Email</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/system/libraries/Encrypt.php">CI_Encrypt</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/system/libraries/Exceptions.php">CI_Exceptions</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/system/libraries/Form_validation.php">CI_Form_validation</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/system/libraries/Ftp.php">CI_FTP</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/system/libraries/Hooks.php">CI_Hooks</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/system/libraries/Image_lib.php">CI_Image_lib</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/system/libraries/Input.php">CI_Input</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/system/libraries/Language.php">CI_Language</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/system/libraries/Loader.php">CI_Loader</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/system/libraries/Log.php">CI_Log</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/system/libraries/Model.php">Model</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/system/libraries/Output.php">CI_Output</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/system/libraries/Pagination.php">CI_Pagination</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/system/libraries/Parser.php">CI_Parser</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/system/libraries/Profiler.php">CI_Profiler</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/system/libraries/Router.php">CI_Router</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/system/libraries/Session.php">CI_Session</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/system/libraries/Sha1.php">CI_SHA</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/system/libraries/Table.php">CI_Table</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/system/libraries/Trackback.php">CI_Trackback</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/system/libraries/URI.php">CI_URI</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/system/libraries/Unit_test.php">CI_Unit_test</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/system/libraries/Upload.php">CI_Upload</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/system/libraries/User_agent.php">CI_User_agent</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/system/libraries/Validation.php">CI_Validation</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/system/libraries/Xmlrpc.php">CI_Xmlrpc</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/system/libraries/Xmlrpcs.php">CI_Xmlrpcs</Class>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/system/libraries/Zip.php">CI_Zip</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package>+global</Package>
+        <Package>CodeIgniter\Scaffolding</Package>
+        <Package>CodeIgniter\codeigniter</Package>
+      </DependsUpon>
+      <UsedBy>
+        <Package>+global</Package>
+        <Package>CodeIgniter\codeigniter</Package>
+      </UsedBy>
+    </Package>
+    <Package name="CodeIgniter\Scaffolding">
+      <Stats>
+        <TotalClasses>1</TotalClasses>
+        <ConcreteClasses>1</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>1</Ca>
+        <Ce>0</Ce>
+        <A>0</A>
+        <I>0</I>
+        <D>1</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/home/arun/Projects/Kroo_Admin-Redesign/system/scaffolding/Scaffolding.php">Scaffolding</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon/>
+      <UsedBy>
+        <Package>CodeIgniter\Libraries</Package>
+      </UsedBy>
+    </Package>
+  </Packages>
+  <Cycles>
+    <Package Name="+global">
+      <Package>+global</Package>
+      <Package>Aws\S3</Package>
+      <Package>Aws</Package>
+      <Package>Aws\Exception</Package>
+      <Package>Aws</Package>
+    </Package>
+    <Package Name="Aws\Acm">
+      <Package>Aws\Acm</Package>
+      <Package>Aws</Package>
+      <Package>Aws\Exception</Package>
+      <Package>Aws</Package>
+    </Package>
+    <Package Name="Aws\Acm\Exception">
+      <Package>Aws\Acm\Exception</Package>
+      <Package>Aws\Exception</Package>
+      <Package>Aws</Package>
+      <Package>Aws\Exception</Package>
+    </Package>
+    <Package Name="Aws\Api">
+      <Package>Aws\Api</Package>
+      <Package>Aws\Api\Parser</Package>
+      <Package>Aws</Package>
+      <Package>Aws\Exception</Package>
+      <Package>Aws</Package>
+    </Package>
+    <Package Name="Aws\Api\Parser">
+      <Package>Aws\Api\Parser</Package>
+      <Package>Aws</Package>
+      <Package>Aws\Exception</Package>
+      <Package>Aws</Package>
+    </Package>
+    <Package Name="Aws\Api\Serializer">
+      <Package>Aws\Api\Serializer</Package>
+      <Package>Aws</Package>
+      <Package>Aws\Exception</Package>
+      <Package>Aws</Package>
+    </Package>
+    <Package Name="Aws\ApiGateway">
+      <Package>Aws\ApiGateway</Package>
+      <Package>Aws</Package>
+      <Package>Aws\Exception</Package>
+      <Package>Aws</Package>
+    </Package>
+    <Package Name="Aws\ApiGateway\Exception">
+      <Package>Aws\ApiGateway\Exception</Package>
+      <Package>Aws\Exception</Package>
+      <Package>Aws</Package>
+      <Package>Aws\Exception</Package>
+    </Package>
+    <Package Name="Aws\AutoScaling">
+      <Package>Aws\AutoScaling</Package>
+      <Package>Aws</Package>
+      <Package>Aws\Exception</Package>
+      <Package>Aws</Package>
+    </Package>
+    <Package Name="Aws\AutoScaling\Exception">
+      <Package>Aws\AutoScaling\Exception</Package>
+      <Package>Aws\Exception</Package>
+      <Package>Aws</Package>
+      <Package>Aws\Exception</Package>
+    </Package>
+    <Package Name="Aws">
+      <Package>Aws</Package>
+      <Package>Aws\Exception</Package>
+      <Package>Aws</Package>
+    </Package>
+    <Package Name="Aws\CloudFormation">
+      <Package>Aws\CloudFormation</Package>
+      <Package>Aws</Package>
+      <Package>Aws\Exception</Package>
+      <Package>Aws</Package>
+    </Package>
+    <Package Name="Aws\CloudFormation\Exception">
+      <Package>Aws\CloudFormation\Exception</Package>
+      <Package>Aws\Exception</Package>
+      <Package>Aws</Package>
+      <Package>Aws\Exception</Package>
+    </Package>
+    <Package Name="Aws\CloudFront">
+      <Package>Aws\CloudFront</Package>
+      <Package>Aws</Package>
+      <Package>Aws\Exception</Package>
+      <Package>Aws</Package>
+    </Package>
+    <Package Name="Aws\CloudFront\Exception">
+      <Package>Aws\CloudFront\Exception</Package>
+      <Package>Aws\Exception</Package>
+      <Package>Aws</Package>
+      <Package>Aws\Exception</Package>
+    </Package>
+    <Package Name="Aws\CloudHsm">
+      <Package>Aws\CloudHsm</Package>
+      <Package>Aws</Package>
+      <Package>Aws\Exception</Package>
+      <Package>Aws</Package>
+    </Package>
+    <Package Name="Aws\CloudHsm\Exception">
+      <Package>Aws\CloudHsm\Exception</Package>
+      <Package>Aws\Exception</Package>
+      <Package>Aws</Package>
+      <Package>Aws\Exception</Package>
+    </Package>
+    <Package Name="Aws\CloudSearch">
+      <Package>Aws\CloudSearch</Package>
+      <Package>Aws</Package>
+      <Package>Aws\Exception</Package>
+      <Package>Aws</Package>
+    </Package>
+    <Package Name="Aws\CloudSearch\Exception">
+      <Package>Aws\CloudSearch\Exception</Package>
+      <Package>Aws\Exception</Package>
+      <Package>Aws</Package>
+      <Package>Aws\Exception</Package>
+    </Package>
+    <Package Name="Aws\CloudSearchDomain">
+      <Package>Aws\CloudSearchDomain</Package>
+      <Package>Aws</Package>
+      <Package>Aws\Exception</Package>
+      <Package>Aws</Package>
+    </Package>
+    <Package Name="Aws\CloudSearchDomain\Exception">
+      <Package>Aws\CloudSearchDomain\Exception</Package>
+      <Package>Aws\Exception</Package>
+      <Package>Aws</Package>
+      <Package>Aws\Exception</Package>
+    </Package>
+    <Package Name="Aws\CloudTrail">
+      <Package>Aws\CloudTrail</Package>
+      <Package>Aws</Package>
+      <Package>Aws\Exception</Package>
+      <Package>Aws</Package>
+    </Package>
+    <Package Name="Aws\CloudTrail\Exception">
+      <Package>Aws\CloudTrail\Exception</Package>
+      <Package>Aws\Exception</Package>
+      <Package>Aws</Package>
+      <Package>Aws\Exception</Package>
+    </Package>
+    <Package Name="Aws\CloudWatch">
+      <Package>Aws\CloudWatch</Package>
+      <Package>Aws</Package>
+      <Package>Aws\Exception</Package>
+      <Package>Aws</Package>
+    </Package>
+    <Package Name="Aws\CloudWatch\Exception">
+      <Package>Aws\CloudWatch\Exception</Package>
+      <Package>Aws\Exception</Package>
+      <Package>Aws</Package>
+      <Package>Aws\Exception</Package>
+    </Package>
+    <Package Name="Aws\CloudWatchEvents">
+      <Package>Aws\CloudWatchEvents</Package>
+      <Package>Aws</Package>
+      <Package>Aws\Exception</Package>
+      <Package>Aws</Package>
+    </Package>
+    <Package Name="Aws\CloudWatchEvents\Exception">
+      <Package>Aws\CloudWatchEvents\Exception</Package>
+      <Package>Aws\Exception</Package>
+      <Package>Aws</Package>
+      <Package>Aws\Exception</Package>
+    </Package>
+    <Package Name="Aws\CloudWatchLogs">
+      <Package>Aws\CloudWatchLogs</Package>
+      <Package>Aws</Package>
+      <Package>Aws\Exception</Package>
+      <Package>Aws</Package>
+    </Package>
+    <Package Name="Aws\CloudWatchLogs\Exception">
+      <Package>Aws\CloudWatchLogs\Exception</Package>
+      <Package>Aws\Exception</Package>
+      <Package>Aws</Package>
+      <Package>Aws\Exception</Package>
+    </Package>
+    <Package Name="Aws\CodeCommit">
+      <Package>Aws\CodeCommit</Package>
+      <Package>Aws</Package>
+      <Package>Aws\Exception</Package>
+      <Package>Aws</Package>
+    </Package>
+    <Package Name="Aws\CodeCommit\Exception">
+      <Package>Aws\CodeCommit\Exception</Package>
+      <Package>Aws\Exception</Package>
+      <Package>Aws</Package>
+      <Package>Aws\Exception</Package>
+    </Package>
+    <Package Name="Aws\CodeDeploy">
+      <Package>Aws\CodeDeploy</Package>
+      <Package>Aws</Package>
+      <Package>Aws\Exception</Package>
+      <Package>Aws</Package>
+    </Package>
+    <Package Name="Aws\CodeDeploy\Exception">
+      <Package>Aws\CodeDeploy\Exception</Package>
+      <Package>Aws\Exception</Package>
+      <Package>Aws</Package>
+      <Package>Aws\Exception</Package>
+    </Package>
+    <Package Name="Aws\CodePipeline">
+      <Package>Aws\CodePipeline</Package>
+      <Package>Aws</Package>
+      <Package>Aws\Exception</Package>
+      <Package>Aws</Package>
+    </Package>
+    <Package Name="Aws\CodePipeline\Exception">
+      <Package>Aws\CodePipeline\Exception</Package>
+      <Package>Aws\Exception</Package>
+      <Package>Aws</Package>
+      <Package>Aws\Exception</Package>
+    </Package>
+    <Package Name="Aws\CognitoIdentity">
+      <Package>Aws\CognitoIdentity</Package>
+      <Package>Aws</Package>
+      <Package>Aws\Exception</Package>
+      <Package>Aws</Package>
+    </Package>
+    <Package Name="Aws\CognitoIdentity\Exception">
+      <Package>Aws\CognitoIdentity\Exception</Package>
+      <Package>Aws\Exception</Package>
+      <Package>Aws</Package>
+      <Package>Aws\Exception</Package>
+    </Package>
+    <Package Name="Aws\CognitoIdentityProvider">
+      <Package>Aws\CognitoIdentityProvider</Package>
+      <Package>Aws</Package>
+      <Package>Aws\Exception</Package>
+      <Package>Aws</Package>
+    </Package>
+    <Package Name="Aws\CognitoIdentityProvider\Exception">
+      <Package>Aws\CognitoIdentityProvider\Exception</Package>
+      <Package>Aws\Exception</Package>
+      <Package>Aws</Package>
+      <Package>Aws\Exception</Package>
+    </Package>
+    <Package Name="Aws\CognitoSync">
+      <Package>Aws\CognitoSync</Package>
+      <Package>Aws</Package>
+      <Package>Aws\Exception</Package>
+      <Package>Aws</Package>
+    </Package>
+    <Package Name="Aws\CognitoSync\Exception">
+      <Package>Aws\CognitoSync\Exception</Package>
+      <Package>Aws\Exception</Package>
+      <Package>Aws</Package>
+      <Package>Aws\Exception</Package>
+    </Package>
+    <Package Name="Aws\ConfigService">
+      <Package>Aws\ConfigService</Package>
+      <Package>Aws</Package>
+      <Package>Aws\Exception</Package>
+      <Package>Aws</Package>
+    </Package>
+    <Package Name="Aws\ConfigService\Exception">
+      <Package>Aws\ConfigService\Exception</Package>
+      <Package>Aws\Exception</Package>
+      <Package>Aws</Package>
+      <Package>Aws\Exception</Package>
+    </Package>
+    <Package Name="Aws\Credentials">
+      <Package>Aws\Credentials</Package>
+      <Package>Aws</Package>
+      <Package>Aws\Exception</Package>
+      <Package>Aws</Package>
+    </Package>
+    <Package Name="Aws\DataPipeline">
+      <Package>Aws\DataPipeline</Package>
+      <Package>Aws</Package>
+      <Package>Aws\Exception</Package>
+      <Package>Aws</Package>
+    </Package>
+    <Package Name="Aws\DataPipeline\Exception">
+      <Package>Aws\DataPipeline\Exception</Package>
+      <Package>Aws\Exception</Package>
+      <Package>Aws</Package>
+      <Package>Aws\Exception</Package>
+    </Package>
+    <Package Name="Aws\DatabaseMigrationService">
+      <Package>Aws\DatabaseMigrationService</Package>
+      <Package>Aws</Package>
+      <Package>Aws\Exception</Package>
+      <Package>Aws</Package>
+    </Package>
+    <Package Name="Aws\DatabaseMigrationService\Exception">
+      <Package>Aws\DatabaseMigrationService\Exception</Package>
+      <Package>Aws\Exception</Package>
+      <Package>Aws</Package>
+      <Package>Aws\Exception</Package>
+    </Package>
+    <Package Name="Aws\DeviceFarm">
+      <Package>Aws\DeviceFarm</Package>
+      <Package>Aws</Package>
+      <Package>Aws\Exception</Package>
+      <Package>Aws</Package>
+    </Package>
+    <Package Name="Aws\DeviceFarm\Exception">
+      <Package>Aws\DeviceFarm\Exception</Package>
+      <Package>Aws\Exception</Package>
+      <Package>Aws</Package>
+      <Package>Aws\Exception</Package>
+    </Package>
+    <Package Name="Aws\DirectConnect">
+      <Package>Aws\DirectConnect</Package>
+      <Package>Aws</Package>
+      <Package>Aws\Exception</Package>
+      <Package>Aws</Package>
+    </Package>
+    <Package Name="Aws\DirectConnect\Exception">
+      <Package>Aws\DirectConnect\Exception</Package>
+      <Package>Aws\Exception</Package>
+      <Package>Aws</Package>
+      <Package>Aws\Exception</Package>
+    </Package>
+    <Package Name="Aws\DirectoryService">
+      <Package>Aws\DirectoryService</Package>
+      <Package>Aws</Package>
+      <Package>Aws\Exception</Package>
+      <Package>Aws</Package>
+    </Package>
+    <Package Name="Aws\DirectoryService\Exception">
+      <Package>Aws\DirectoryService\Exception</Package>
+      <Package>Aws\Exception</Package>
+      <Package>Aws</Package>
+      <Package>Aws\Exception</Package>
+    </Package>
+    <Package Name="Aws\DynamoDb">
+      <Package>Aws\DynamoDb</Package>
+      <Package>Aws</Package>
+      <Package>Aws\Exception</Package>
+      <Package>Aws</Package>
+    </Package>
+    <Package Name="Aws\DynamoDb\Exception">
+      <Package>Aws\DynamoDb\Exception</Package>
+      <Package>Aws\Exception</Package>
+      <Package>Aws</Package>
+      <Package>Aws\Exception</Package>
+    </Package>
+    <Package Name="Aws\DynamoDbStreams\Exception">
+      <Package>Aws\DynamoDbStreams\Exception</Package>
+      <Package>Aws\Exception</Package>
+      <Package>Aws</Package>
+      <Package>Aws\Exception</Package>
+    </Package>
+    <Package Name="Aws\Ec2">
+      <Package>Aws\Ec2</Package>
+      <Package>Aws</Package>
+      <Package>Aws\Exception</Package>
+      <Package>Aws</Package>
+    </Package>
+    <Package Name="Aws\Ec2\Exception">
+      <Package>Aws\Ec2\Exception</Package>
+      <Package>Aws\Exception</Package>
+      <Package>Aws</Package>
+      <Package>Aws\Exception</Package>
+    </Package>
+    <Package Name="Aws\Ecr">
+      <Package>Aws\Ecr</Package>
+      <Package>Aws</Package>
+      <Package>Aws\Exception</Package>
+      <Package>Aws</Package>
+    </Package>
+    <Package Name="Aws\Ecr\Exception">
+      <Package>Aws\Ecr\Exception</Package>
+      <Package>Aws\Exception</Package>
+      <Package>Aws</Package>
+      <Package>Aws\Exception</Package>
+    </Package>
+    <Package Name="Aws\Ecs">
+      <Package>Aws\Ecs</Package>
+      <Package>Aws</Package>
+      <Package>Aws\Exception</Package>
+      <Package>Aws</Package>
+    </Package>
+    <Package Name="Aws\Ecs\Exception">
+      <Package>Aws\Ecs\Exception</Package>
+      <Package>Aws\Exception</Package>
+      <Package>Aws</Package>
+      <Package>Aws\Exception</Package>
+    </Package>
+    <Package Name="Aws\Efs">
+      <Package>Aws\Efs</Package>
+      <Package>Aws</Package>
+      <Package>Aws\Exception</Package>
+      <Package>Aws</Package>
+    </Package>
+    <Package Name="Aws\Efs\Exception">
+      <Package>Aws\Efs\Exception</Package>
+      <Package>Aws\Exception</Package>
+      <Package>Aws</Package>
+      <Package>Aws\Exception</Package>
+    </Package>
+    <Package Name="Aws\ElastiCache">
+      <Package>Aws\ElastiCache</Package>
+      <Package>Aws</Package>
+      <Package>Aws\Exception</Package>
+      <Package>Aws</Package>
+    </Package>
+    <Package Name="Aws\ElastiCache\Exception">
+      <Package>Aws\ElastiCache\Exception</Package>
+      <Package>Aws\Exception</Package>
+      <Package>Aws</Package>
+      <Package>Aws\Exception</Package>
+    </Package>
+    <Package Name="Aws\ElasticBeanstalk">
+      <Package>Aws\ElasticBeanstalk</Package>
+      <Package>Aws</Package>
+      <Package>Aws\Exception</Package>
+      <Package>Aws</Package>
+    </Package>
+    <Package Name="Aws\ElasticBeanstalk\Exception">
+      <Package>Aws\ElasticBeanstalk\Exception</Package>
+      <Package>Aws\Exception</Package>
+      <Package>Aws</Package>
+      <Package>Aws\Exception</Package>
+    </Package>
+    <Package Name="Aws\ElasticLoadBalancing">
+      <Package>Aws\ElasticLoadBalancing</Package>
+      <Package>Aws</Package>
+      <Package>Aws\Exception</Package>
+      <Package>Aws</Package>
+    </Package>
+    <Package Name="Aws\ElasticLoadBalancing\Exception">
+      <Package>Aws\ElasticLoadBalancing\Exception</Package>
+      <Package>Aws\Exception</Package>
+      <Package>Aws</Package>
+      <Package>Aws\Exception</Package>
+    </Package>
+    <Package Name="Aws\ElasticTranscoder">
+      <Package>Aws\ElasticTranscoder</Package>
+      <Package>Aws</Package>
+      <Package>Aws\Exception</Package>
+      <Package>Aws</Package>
+    </Package>
+    <Package Name="Aws\ElasticTranscoder\Exception">
+      <Package>Aws\ElasticTranscoder\Exception</Package>
+      <Package>Aws\Exception</Package>
+      <Package>Aws</Package>
+      <Package>Aws\Exception</Package>
+    </Package>
+    <Package Name="Aws\ElasticsearchService">
+      <Package>Aws\ElasticsearchService</Package>
+      <Package>Aws</Package>
+      <Package>Aws\Exception</Package>
+      <Package>Aws</Package>
+    </Package>
+    <Package Name="Aws\ElasticsearchService\Exception">
+      <Package>Aws\ElasticsearchService\Exception</Package>
+      <Package>Aws\Exception</Package>
+      <Package>Aws</Package>
+      <Package>Aws\Exception</Package>
+    </Package>
+    <Package Name="Aws\Emr">
+      <Package>Aws\Emr</Package>
+      <Package>Aws</Package>
+      <Package>Aws\Exception</Package>
+      <Package>Aws</Package>
+    </Package>
+    <Package Name="Aws\Emr\Exception">
+      <Package>Aws\Emr\Exception</Package>
+      <Package>Aws\Exception</Package>
+      <Package>Aws</Package>
+      <Package>Aws\Exception</Package>
+    </Package>
+    <Package Name="Aws\Endpoint">
+      <Package>Aws\Endpoint</Package>
+      <Package>Aws\Exception</Package>
+      <Package>Aws</Package>
+      <Package>Aws\Exception</Package>
+    </Package>
+    <Package Name="Aws\Exception">
+      <Package>Aws\Exception</Package>
+      <Package>Aws</Package>
+      <Package>Aws\Exception</Package>
+    </Package>
+    <Package Name="Aws\Firehose\Exception">
+      <Package>Aws\Firehose\Exception</Package>
+      <Package>Aws\Exception</Package>
+      <Package>Aws</Package>
+      <Package>Aws\Exception</Package>
+    </Package>
+    <Package Name="Aws\Firehose">
+      <Package>Aws\Firehose</Package>
+      <Package>Aws</Package>
+      <Package>Aws\Exception</Package>
+      <Package>Aws</Package>
+    </Package>
+    <Package Name="Aws\GameLift\Exception">
+      <Package>Aws\GameLift\Exception</Package>
+      <Package>Aws\Exception</Package>
+      <Package>Aws</Package>
+      <Package>Aws\Exception</Package>
+    </Package>
+    <Package Name="Aws\GameLift">
+      <Package>Aws\GameLift</Package>
+      <Package>Aws</Package>
+      <Package>Aws\Exception</Package>
+      <Package>Aws</Package>
+    </Package>
+    <Package Name="Aws\Glacier\Exception">
+      <Package>Aws\Glacier\Exception</Package>
+      <Package>Aws\Exception</Package>
+      <Package>Aws</Package>
+      <Package>Aws\Exception</Package>
+    </Package>
+    <Package Name="Aws\Glacier">
+      <Package>Aws\Glacier</Package>
+      <Package>Aws</Package>
+      <Package>Aws\Exception</Package>
+      <Package>Aws</Package>
+    </Package>
+    <Package Name="Aws\Iam\Exception">
+      <Package>Aws\Iam\Exception</Package>
+      <Package>Aws\Exception</Package>
+      <Package>Aws</Package>
+      <Package>Aws\Exception</Package>
+    </Package>
+    <Package Name="Aws\Iam">
+      <Package>Aws\Iam</Package>
+      <Package>Aws</Package>
+      <Package>Aws\Exception</Package>
+      <Package>Aws</Package>
+    </Package>
+    <Package Name="Aws\Inspector\Exception">
+      <Package>Aws\Inspector\Exception</Package>
+      <Package>Aws\Exception</Package>
+      <Package>Aws</Package>
+      <Package>Aws\Exception</Package>
+    </Package>
+    <Package Name="Aws\Inspector">
+      <Package>Aws\Inspector</Package>
+      <Package>Aws</Package>
+      <Package>Aws\Exception</Package>
+      <Package>Aws</Package>
+    </Package>
+    <Package Name="Aws\Iot\Exception">
+      <Package>Aws\Iot\Exception</Package>
+      <Package>Aws\Exception</Package>
+      <Package>Aws</Package>
+      <Package>Aws\Exception</Package>
+    </Package>
+    <Package Name="Aws\Iot">
+      <Package>Aws\Iot</Package>
+      <Package>Aws</Package>
+      <Package>Aws\Exception</Package>
+      <Package>Aws</Package>
+    </Package>
+    <Package Name="Aws\IotDataPlane\Exception">
+      <Package>Aws\IotDataPlane\Exception</Package>
+      <Package>Aws\Exception</Package>
+      <Package>Aws</Package>
+      <Package>Aws\Exception</Package>
+    </Package>
+    <Package Name="Aws\IotDataPlane">
+      <Package>Aws\IotDataPlane</Package>
+      <Package>Aws</Package>
+      <Package>Aws\Exception</Package>
+      <Package>Aws</Package>
+    </Package>
+    <Package Name="Aws\Kinesis\Exception">
+      <Package>Aws\Kinesis\Exception</Package>
+      <Package>Aws\Exception</Package>
+      <Package>Aws</Package>
+      <Package>Aws\Exception</Package>
+    </Package>
+    <Package Name="Aws\Kinesis">
+      <Package>Aws\Kinesis</Package>
+      <Package>Aws</Package>
+      <Package>Aws\Exception</Package>
+      <Package>Aws</Package>
+    </Package>
+    <Package Name="Aws\Kms\Exception">
+      <Package>Aws\Kms\Exception</Package>
+      <Package>Aws\Exception</Package>
+      <Package>Aws</Package>
+      <Package>Aws\Exception</Package>
+    </Package>
+    <Package Name="Aws\Kms">
+      <Package>Aws\Kms</Package>
+      <Package>Aws</Package>
+      <Package>Aws\Exception</Package>
+      <Package>Aws</Package>
+    </Package>
+    <Package Name="Aws\Lambda\Exception">
+      <Package>Aws\Lambda\Exception</Package>
+      <Package>Aws\Exception</Package>
+      <Package>Aws</Package>
+      <Package>Aws\Exception</Package>
+    </Package>
+    <Package Name="Aws\Lambda">
+      <Package>Aws\Lambda</Package>
+      <Package>Aws</Package>
+      <Package>Aws\Exception</Package>
+      <Package>Aws</Package>
+    </Package>
+    <Package Name="Aws\MachineLearning\Exception">
+      <Package>Aws\MachineLearning\Exception</Package>
+      <Package>Aws\Exception</Package>
+      <Package>Aws</Package>
+      <Package>Aws\Exception</Package>
+    </Package>
+    <Package Name="Aws\MachineLearning">
+      <Package>Aws\MachineLearning</Package>
+      <Package>Aws</Package>
+      <Package>Aws\Exception</Package>
+      <Package>Aws</Package>
+    </Package>
+    <Package Name="Aws\MarketplaceCommerceAnalytics\Exception">
+      <Package>Aws\MarketplaceCommerceAnalytics\Exception</Package>
+      <Package>Aws\Exception</Package>
+      <Package>Aws</Package>
+      <Package>Aws\Exception</Package>
+    </Package>
+    <Package Name="Aws\MarketplaceCommerceAnalytics">
+      <Package>Aws\MarketplaceCommerceAnalytics</Package>
+      <Package>Aws</Package>
+      <Package>Aws\Exception</Package>
+      <Package>Aws</Package>
+    </Package>
+    <Package Name="Aws\MarketplaceMetering\Exception">
+      <Package>Aws\MarketplaceMetering\Exception</Package>
+      <Package>Aws\Exception</Package>
+      <Package>Aws</Package>
+      <Package>Aws\Exception</Package>
+    </Package>
+    <Package Name="Aws\MarketplaceMetering">
+      <Package>Aws\MarketplaceMetering</Package>
+      <Package>Aws</Package>
+      <Package>Aws\Exception</Package>
+      <Package>Aws</Package>
+    </Package>
+    <Package Name="Aws\OpsWorks\Exception">
+      <Package>Aws\OpsWorks\Exception</Package>
+      <Package>Aws\Exception</Package>
+      <Package>Aws</Package>
+      <Package>Aws\Exception</Package>
+    </Package>
+    <Package Name="Aws\OpsWorks">
+      <Package>Aws\OpsWorks</Package>
+      <Package>Aws</Package>
+      <Package>Aws\Exception</Package>
+      <Package>Aws</Package>
+    </Package>
+    <Package Name="Aws\Rds\Exception">
+      <Package>Aws\Rds\Exception</Package>
+      <Package>Aws\Exception</Package>
+      <Package>Aws</Package>
+      <Package>Aws\Exception</Package>
+    </Package>
+    <Package Name="Aws\Rds">
+      <Package>Aws\Rds</Package>
+      <Package>Aws</Package>
+      <Package>Aws\Exception</Package>
+      <Package>Aws</Package>
+    </Package>
+    <Package Name="Aws\Redshift\Exception">
+      <Package>Aws\Redshift\Exception</Package>
+      <Package>Aws\Exception</Package>
+      <Package>Aws</Package>
+      <Package>Aws\Exception</Package>
+    </Package>
+    <Package Name="Aws\Redshift">
+      <Package>Aws\Redshift</Package>
+      <Package>Aws</Package>
+      <Package>Aws\Exception</Package>
+      <Package>Aws</Package>
+    </Package>
+    <Package Name="Aws\Route53\Exception">
+      <Package>Aws\Route53\Exception</Package>
+      <Package>Aws\Exception</Package>
+      <Package>Aws</Package>
+      <Package>Aws\Exception</Package>
+    </Package>
+    <Package Name="Aws\Route53">
+      <Package>Aws\Route53</Package>
+      <Package>Aws</Package>
+      <Package>Aws\Exception</Package>
+      <Package>Aws</Package>
+    </Package>
+    <Package Name="Aws\Route53Domains\Exception">
+      <Package>Aws\Route53Domains\Exception</Package>
+      <Package>Aws\Exception</Package>
+      <Package>Aws</Package>
+      <Package>Aws\Exception</Package>
+    </Package>
+    <Package Name="Aws\Route53Domains">
+      <Package>Aws\Route53Domains</Package>
+      <Package>Aws</Package>
+      <Package>Aws\Exception</Package>
+      <Package>Aws</Package>
+    </Package>
+    <Package Name="Aws\S3">
+      <Package>Aws\S3</Package>
+      <Package>Aws</Package>
+      <Package>Aws\Exception</Package>
+      <Package>Aws</Package>
+    </Package>
+    <Package Name="Aws\S3\Exception">
+      <Package>Aws\S3\Exception</Package>
+      <Package>Aws\Exception</Package>
+      <Package>Aws</Package>
+      <Package>Aws\Exception</Package>
+    </Package>
+    <Package Name="Aws\Ses\Exception">
+      <Package>Aws\Ses\Exception</Package>
+      <Package>Aws\Exception</Package>
+      <Package>Aws</Package>
+      <Package>Aws\Exception</Package>
+    </Package>
+    <Package Name="Aws\Ses">
+      <Package>Aws\Ses</Package>
+      <Package>Aws</Package>
+      <Package>Aws\Exception</Package>
+      <Package>Aws</Package>
+    </Package>
+    <Package Name="Aws\Signature">
+      <Package>Aws\Signature</Package>
+      <Package>Aws\Credentials</Package>
+      <Package>Aws</Package>
+      <Package>Aws\Exception</Package>
+      <Package>Aws</Package>
+    </Package>
+    <Package Name="Aws\Sns\Exception">
+      <Package>Aws\Sns\Exception</Package>
+      <Package>Aws\Exception</Package>
+      <Package>Aws</Package>
+      <Package>Aws\Exception</Package>
+    </Package>
+    <Package Name="Aws\Sns">
+      <Package>Aws\Sns</Package>
+      <Package>Aws</Package>
+      <Package>Aws\Exception</Package>
+      <Package>Aws</Package>
+    </Package>
+    <Package Name="Aws\Sqs\Exception">
+      <Package>Aws\Sqs\Exception</Package>
+      <Package>Aws\Exception</Package>
+      <Package>Aws</Package>
+      <Package>Aws\Exception</Package>
+    </Package>
+    <Package Name="Aws\Sqs">
+      <Package>Aws\Sqs</Package>
+      <Package>Aws</Package>
+      <Package>Aws\Exception</Package>
+      <Package>Aws</Package>
+    </Package>
+    <Package Name="Aws\Ssm\Exception">
+      <Package>Aws\Ssm\Exception</Package>
+      <Package>Aws\Exception</Package>
+      <Package>Aws</Package>
+      <Package>Aws\Exception</Package>
+    </Package>
+    <Package Name="Aws\Ssm">
+      <Package>Aws\Ssm</Package>
+      <Package>Aws</Package>
+      <Package>Aws\Exception</Package>
+      <Package>Aws</Package>
+    </Package>
+    <Package Name="Aws\StorageGateway\Exception">
+      <Package>Aws\StorageGateway\Exception</Package>
+      <Package>Aws\Exception</Package>
+      <Package>Aws</Package>
+      <Package>Aws\Exception</Package>
+    </Package>
+    <Package Name="Aws\StorageGateway">
+      <Package>Aws\StorageGateway</Package>
+      <Package>Aws</Package>
+      <Package>Aws\Exception</Package>
+      <Package>Aws</Package>
+    </Package>
+    <Package Name="Aws\Sts\Exception">
+      <Package>Aws\Sts\Exception</Package>
+      <Package>Aws\Exception</Package>
+      <Package>Aws</Package>
+      <Package>Aws\Exception</Package>
+    </Package>
+    <Package Name="Aws\Sts">
+      <Package>Aws\Sts</Package>
+      <Package>Aws</Package>
+      <Package>Aws\Exception</Package>
+      <Package>Aws</Package>
+    </Package>
+    <Package Name="Aws\Support\Exception">
+      <Package>Aws\Support\Exception</Package>
+      <Package>Aws\Exception</Package>
+      <Package>Aws</Package>
+      <Package>Aws\Exception</Package>
+    </Package>
+    <Package Name="Aws\Support">
+      <Package>Aws\Support</Package>
+      <Package>Aws</Package>
+      <Package>Aws\Exception</Package>
+      <Package>Aws</Package>
+    </Package>
+    <Package Name="Aws\Swf\Exception">
+      <Package>Aws\Swf\Exception</Package>
+      <Package>Aws\Exception</Package>
+      <Package>Aws</Package>
+      <Package>Aws\Exception</Package>
+    </Package>
+    <Package Name="Aws\Swf">
+      <Package>Aws\Swf</Package>
+      <Package>Aws</Package>
+      <Package>Aws\Exception</Package>
+      <Package>Aws</Package>
+    </Package>
+    <Package Name="Aws\Waf\Exception">
+      <Package>Aws\Waf\Exception</Package>
+      <Package>Aws\Exception</Package>
+      <Package>Aws</Package>
+      <Package>Aws\Exception</Package>
+    </Package>
+    <Package Name="Aws\Waf">
+      <Package>Aws\Waf</Package>
+      <Package>Aws</Package>
+      <Package>Aws\Exception</Package>
+      <Package>Aws</Package>
+    </Package>
+    <Package Name="Aws\WorkSpaces\Exception">
+      <Package>Aws\WorkSpaces\Exception</Package>
+      <Package>Aws\Exception</Package>
+      <Package>Aws</Package>
+      <Package>Aws\Exception</Package>
+    </Package>
+    <Package Name="Aws\WorkSpaces">
+      <Package>Aws\WorkSpaces</Package>
+      <Package>Aws</Package>
+      <Package>Aws\Exception</Package>
+      <Package>Aws</Package>
+    </Package>
+    <Package Name="CodeIgniter\codeigniter">
+      <Package>CodeIgniter\codeigniter</Package>
+      <Package>CodeIgniter\Libraries</Package>
+      <Package>+global</Package>
+      <Package>Aws\S3</Package>
+      <Package>Aws</Package>
+      <Package>Aws\Exception</Package>
+      <Package>Aws</Package>
+    </Package>
+    <Package Name="CodeIgniter\Drivers">
+      <Package>CodeIgniter\Drivers</Package>
+      <Package>+global</Package>
+      <Package>Aws\S3</Package>
+      <Package>Aws</Package>
+      <Package>Aws\Exception</Package>
+      <Package>Aws</Package>
+    </Package>
+    <Package Name="CodeIgniter\Libraries">
+      <Package>CodeIgniter\Libraries</Package>
+      <Package>+global</Package>
+      <Package>Aws\S3</Package>
+      <Package>Aws</Package>
+      <Package>Aws\Exception</Package>
+      <Package>Aws</Package>
+    </Package>
+  </Cycles>
+</PDepend>
