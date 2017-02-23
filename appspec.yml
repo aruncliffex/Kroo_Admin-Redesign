@@ -1,5 +1,10 @@
 version: 0.0
 os: linux
 files:
-  - source: /index.php
+  - source: /
     destination: /var/www/html/Kroo_Admin-Redesign_Demo
+
+hooks:
+  BeforeInstall:
+    - location: scripts/backup.sh
+      runas: root
