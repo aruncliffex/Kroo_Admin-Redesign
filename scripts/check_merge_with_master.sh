@@ -1,7 +1,7 @@
 #!/bin/bash
 
 git checkout development
-git format-patch master --stdout > ../patches/dev-$(date +%Y-%m-%d_%H:%M:%S).patch
+git format-patch master --stdout > patches/dev-$(date +%Y-%m-%d_%H:%M:%S).patch
 var=`git apply --check crazy.patch 2>&1`
 var1=`echo $var| cut -d' ' -f1`
 
