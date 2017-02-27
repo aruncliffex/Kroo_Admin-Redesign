@@ -20,7 +20,7 @@ Information you need is: Hostname, username, password.
 
 $db['default']['hostname'] = "localhost";
 $db['default']['username'] = "root";
-$db['default']['password'] = "passless";
+$db['default']['password'] = "passless-development";
 
 The database should be called ci_series. But if you must change it be sure that you edit the membership.sql.txt file to reflect the new name
 
