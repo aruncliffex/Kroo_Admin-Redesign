@@ -1,6 +1,6 @@
 #!/bin/bash
 
-git checkout development
+git checkout master
 git format-patch master --stdout > temp.patch
 var=`git apply --check temp.patch 2>&1`
 var1=`echo $var| cut -d' ' -f1`
