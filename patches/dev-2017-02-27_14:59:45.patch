@@ -1,0 +1,51 @@
+From c2fb4cbe3b7869cde0bc5d1f5edd43f9837c8bac Mon Sep 17 00:00:00 2001
+From: "arun.tewatia" <arun.tewatia@cliffex.com>
+Date: Mon, 27 Feb 2017 12:49:52 +0530
+Subject: [PATCH 1/2] Dev branch first commit
+
+---
+ README.txt | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/README.txt b/README.txt
+index c9396f3..b84dba9 100644
+--- a/README.txt
++++ b/README.txt
+@@ -20,7 +20,7 @@ Information you need is: Hostname, username, password.
+ 
+ $db['default']['hostname'] = "localhost";
+ $db['default']['username'] = "root";
+-$db['default']['password'] = "passless";
++$db['default']['password'] = "passless-development";
+ 
+ The database should be called ci_series. But if you must change it be sure that you edit the membership.sql.txt file to reflect the new name
+ 
+-- 
+2.7.4
+
+
+From e5d9626fbcfb2466aed046e72385bc48dcbd4f56 Mon Sep 17 00:00:00 2001
+From: "arun.tewatia" <arun.tewatia@cliffex.com>
+Date: Mon, 27 Feb 2017 13:08:40 +0530
+Subject: [PATCH 2/2] develpment branch second commit
+
+---
+ README.txt | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/README.txt b/README.txt
+index b84dba9..fe3f815 100644
+--- a/README.txt
++++ b/README.txt
+@@ -21,7 +21,7 @@ Information you need is: Hostname, username, password.
+ $db['default']['hostname'] = "localhost";
+ $db['default']['username'] = "root";
+ $db['default']['password'] = "passless-development";
+-
++## development branch test
+ The database should be called ci_series. But if you must change it be sure that you edit the membership.sql.txt file to reflect the new name
+ 
+ 
+-- 
+2.7.4
+
