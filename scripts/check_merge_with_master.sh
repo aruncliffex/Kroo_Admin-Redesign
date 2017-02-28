@@ -15,6 +15,7 @@ if [[ "$var1" == "Automatic merge went well;" ]] ||
    [[ "$var4" == "Updating" ]]
 then
         echo "Success!"
+	cp -r .git/ ../
 	cd ..
 	rm -rf Kroo_Admin-Redesign
         exit 0
@@ -22,6 +23,7 @@ else
         printf "Error found: Merge with master having conflicts\n\n"
         printf "$var"
         git merge --abort
+	cp -r .git/ ../
 	cd ..
 	rm -rf Kroo_Admin-Redesign
         exit 1
