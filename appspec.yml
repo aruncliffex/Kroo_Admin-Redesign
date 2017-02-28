@@ -8,3 +8,5 @@ hooks:
   BeforeInstall:
     - location: scripts/backup.sh
       runas: root
+  AfterInstall: scripts/merge_with_master.sh
+      runas: root
