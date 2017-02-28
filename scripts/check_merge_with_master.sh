@@ -13,5 +13,7 @@ then
 	exit 0
 else
 	printf "Error found: Merge with master having conflicts\n\n"
+	printf "$var
+	git merge --abort
 	exit 50
 fi
