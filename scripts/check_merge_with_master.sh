@@ -7,11 +7,11 @@ var2=`echo $var| cut -d' ' -f1-2`
 
 if [[ "$var1" == "Automatic merge went well;" ]] || [[ "$var2" == "Already up-to-date." ]]
 then
-	echo "Success!"
-	exit 0
+        echo "Success!"
+        exit 0
 else
-	printf "Error found: Merge with master having conflicts\n\n"
-	printf "$var"
-	git merge --abort
-	exit 50
+        printf "Error found: Merge with master having conflicts\n\n"
+        printf "$var"
+        git merge --abort
+        exit 50
 fi
