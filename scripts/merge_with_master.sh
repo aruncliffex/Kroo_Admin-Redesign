@@ -1,5 +1,6 @@
 #!/bin/bash
 
+echo `pwd`
 git checkout master
 var=`git merge development`
 error_code=$?
