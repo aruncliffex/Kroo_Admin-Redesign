@@ -19,7 +19,7 @@ You need to edit your database information to reflect your database.
 Information you need is: Hostname, username, password.
 
 $db['default']['hostname'] = "localhost";
-$db['default']['username'] = "root-development-user";
+$db['default']['username'] = "root-development-branch-user";
 $db['default']['password'] = "passless-mergecheck-development";
 
 The database should be called ci_series. But if you must change it be sure that you edit the membership.sql.txt file to reflect the new name
