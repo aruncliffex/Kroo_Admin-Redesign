@@ -1,5 +1,6 @@
 #!/bin/bash
 
+cd /var/www/html/Kroo_Admin-Redesign_Demo
 echo `pwd`
 git checkout master
 var=`git merge development`
