@@ -28,10 +28,10 @@
             <antcall target="pdepend"/> 
             <antcall target="phpmd"/>
             <antcall target="phpcpd"/>
-            <antcall target="phpdcd"/>
-            <antcall target="phpcs"/>
-            <antcall target="phpdoc"/>
             <antcall target="phploc"/>
+<!--            <antcall target="phpdcd"/>
+            <antcall target="phpcs"/>
+            <antcall target="phpdoc"/> -->
 
     </target>
 
